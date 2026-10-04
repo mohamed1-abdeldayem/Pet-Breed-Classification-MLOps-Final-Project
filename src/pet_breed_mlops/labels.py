@@ -1,8 +1,13 @@
 import json
 from pathlib import Path
+import os
 
-DEFAULT_LABEL_MAP = Path(__file__).resolve().parents[2] / "configs" / "label_map.json"
-
+DEFAULT_LABEL_MAP = Path(
+    os.environ.get(
+        "PET_LABEL_MAP",
+        Path(__file__).resolve().parents[2] / "configs" / "label_map.json",
+    )
+)
 
 def load_classes(path: Path = DEFAULT_LABEL_MAP) -> list[str]:
     return json.loads(path.read_text())["classes"]
