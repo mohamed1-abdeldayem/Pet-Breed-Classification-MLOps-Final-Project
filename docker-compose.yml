@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    image: pet-breed
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models:ro
+    environment:
+      PET_THRESHOLD: "0.5"
+    restart: unless-stopped
