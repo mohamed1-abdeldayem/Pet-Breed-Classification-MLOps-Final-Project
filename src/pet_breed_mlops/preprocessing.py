@@ -61,3 +61,16 @@ def load_image(data: bytes) -> Image.Image:
 def preprocess(image: Image.Image, transform: transforms.Compose) -> torch.Tensor:
     """PIL image -> normalized tensor of shape (3, crop, crop)."""
     return transform(to_rgb(image))
+
+def build_train_transform(config: EvalTransformConfig | None = None) -> transforms.Compose:
+    """Training-only augmentation. Same Normalize constants as the eval transform."""
+    cfg = config or EvalTransformConfig()
+    return transforms.Compose(
+        [
+            transforms.RandomResizedCrop(cfg.crop, scale=(0.6, 1.0)),
+            transforms.RandomHorizontalFlip(),
+            transforms.ColorJitter(0.2, 0.2, 0.2),
+            transforms.ToTensor(),
+            transforms.Normalize(mean=cfg.mean, std=cfg.std),
+        ]
+    )

@@ -46,3 +46,11 @@ def test_config_roundtrip(tmp_path) -> None:
     cfg = EvalTransformConfig()
     cfg.save(tmp_path / "t.json")
     assert EvalTransformConfig.load(tmp_path / "t.json") == cfg
+
+def test_train_transform_shape_and_eval_stays_deterministic() -> None:
+    from pet_breed_mlops.preprocessing import build_train_transform
+
+    img = Image.new("RGB", (394, 500), (120, 80, 40))
+    assert build_train_transform()(img).shape == (3, 224, 224)
+    t = build_eval_transform()
+    assert torch.equal(preprocess(img, t), preprocess(img, t))
