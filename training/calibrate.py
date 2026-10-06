@@ -22,7 +22,7 @@ from pet_breed_mlops.calibration import (
 logger = logging.getLogger(__name__)
 
 
-def calibrate(run_dir: str | Path, target_accuracy: float = 0.97, plot: str | Path | None = None) -> dict:
+def calibrate(run_dir: str | Path, target_accuracy: float = 0.97, plot: str | Path | None = None, write_checkpoint=False) -> dict:
     run_dir = Path(run_dir)
     data = torch.load(run_dir / "val_logits.pt", weights_only=True)
     logits, labels = data["logits"], data["labels"]
@@ -40,8 +40,8 @@ def calibrate(run_dir: str | Path, target_accuracy: float = 0.97, plot: str | Pa
     }
     (run_dir / "calibration.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
 
-    if plot:
-        _plot(logits, labels, t, result, Path(plot))
+    if write_checkpoint:
+        write_to_checkpoint(run_dir, result)
     logger.info("%s -> %s", run_dir, result)
     return result
 
@@ -66,6 +66,14 @@ def _plot(logits, labels, t, result, path: Path) -> None:
     fig.savefig(path, dpi=130)
     plt.close(fig)
 
+def write_to_checkpoint(run_dir: str | Path, result: dict) -> None:
+    """Ship the calibration with the weights, so the API can never serve raw softmax."""
+    path = Path(run_dir) / "model.pt"
+    ckpt = torch.load(path, map_location="cpu", weights_only=True)
+    ckpt["temperature"] = result["temperature"]
+    ckpt["threshold"] = result["threshold"]
+    torch.save(ckpt, path)
+
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
@@ -73,5 +81,6 @@ if __name__ == "__main__":
     p.add_argument("run_dir")
     p.add_argument("--target-accuracy", type=float, default=0.97)
     p.add_argument("--plot", default=None)
+    p.add_argument("--write-checkpoint", action="store_true")
     a = p.parse_args()
-    calibrate(a.run_dir, a.target_accuracy, a.plot)
+    calibrate(a.run_dir, a.target_accuracy, a.plot, a.write_checkpoint)
