@@ -56,12 +56,14 @@ class PetBreedClassifier:
         self,
         model_dir: str | Path,
         classes: list[str] | None = None,
-        threshold: float = 0.5,
+        threshold: float | None = None,
         device: str = "cpu",
     ) -> None:
         model_dir = Path(model_dir)
         ckpt = torch.load(model_dir / CHECKPOINT_NAME, map_location=device, weights_only=True)
-
+        self.threshold: float = (
+            float(threshold) if threshold is not None else float(ckpt.get("threshold", 0.5))
+        )
         self.classes = classes if classes is not None else load_classes()
         if len(self.classes) != ckpt["num_classes"]:
             raise ValueError(
@@ -70,7 +72,6 @@ class PetBreedClassifier:
             )
 
         self.device = device
-        self.threshold = threshold
         self.temperature: float = ckpt["temperature"]
         self.model_version: str = ckpt["model_version"]
         self.transform = build_eval_transform(EvalTransformConfig.load(model_dir / TRANSFORM_NAME))

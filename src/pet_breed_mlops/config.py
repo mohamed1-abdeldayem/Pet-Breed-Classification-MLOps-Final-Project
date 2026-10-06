@@ -13,5 +13,5 @@ class Settings(BaseSettings):
 
     model_dir: Path = Path("models")
     max_upload_bytes: int = 5 * 1024 * 1024  # 5 MB
-    threshold: float = 0.5
+    threshold: float | None = None
     device: str = "cpu"
