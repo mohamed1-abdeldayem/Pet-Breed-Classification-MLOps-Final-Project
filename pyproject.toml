@@ -17,6 +17,8 @@ dependencies = [
     "uvicorn>=0.54.0",
     "httpx2>=2.13.1",
     "matplotlib>=3.11.2",
+    "mlflow>=3.16.1",
+    "psycopg>=3.3.6",
 ]
 
 [project.scripts]
