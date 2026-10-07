@@ -1,0 +1,5 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = https://dagshub.com/mabdeldayem052/pet-breed-mlops.dvc
+    auth = basic
