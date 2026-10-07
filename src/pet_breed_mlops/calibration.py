@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from itertools import pairwise
 
 import torch
 import torch.nn.functional as F
@@ -28,7 +29,7 @@ def expected_calibration_error(
     conf, correct = _conf_and_correct(logits, labels, temperature)
     ece = 0.0
     edges = torch.linspace(0, 1, n_bins + 1)
-    for lo, hi in zip(edges[:-1], edges[1:]):
+    for lo, hi in pairwise(edges):
         mask = (conf > lo) & (conf <= hi)
         if mask.any():
             ece += mask.float().mean().item() * abs(
@@ -44,7 +45,7 @@ def reliability_bins(
     conf, correct = _conf_and_correct(logits, labels, temperature)
     out = []
     edges = torch.linspace(0, 1, n_bins + 1)
-    for lo, hi in zip(edges[:-1], edges[1:]):
+    for lo, hi in pairwise(edges):
         mask = (conf > lo) & (conf <= hi)
         if mask.any():
             out.append(

@@ -1,7 +1,8 @@
+import logging
+
 from pet_breed_mlops.backbones import build_backbone
 from pet_breed_mlops.inference import save_checkpoint
 from pet_breed_mlops.labels import load_classes
-import logging
 
 logger = logging.getLogger(__name__)
 if __name__ == "__main__":

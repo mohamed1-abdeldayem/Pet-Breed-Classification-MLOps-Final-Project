@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 import torch
 
 from pet_breed_mlops.calibration import (
-    abstention_stats,
     expected_calibration_error,
     fit_temperature,
     pick_threshold,

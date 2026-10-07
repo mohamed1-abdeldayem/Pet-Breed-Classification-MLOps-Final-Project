@@ -1,6 +1,6 @@
 import json
-from pathlib import Path
 import logging
+from pathlib import Path
 
 from torchvision.datasets import OxfordIIITPet
 

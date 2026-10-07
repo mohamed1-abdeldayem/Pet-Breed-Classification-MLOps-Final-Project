@@ -1,6 +1,6 @@
 import json
-from pathlib import Path
 import os
+from pathlib import Path
 
 DEFAULT_LABEL_MAP = Path(
     os.environ.get(

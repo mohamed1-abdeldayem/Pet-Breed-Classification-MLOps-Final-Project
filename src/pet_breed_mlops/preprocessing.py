@@ -23,7 +23,7 @@ class EvalTransformConfig:
         Path(path).write_text(json.dumps(asdict(self), indent=2), encoding="utf-8")
 
     @classmethod
-    def load(cls, path: str | Path) -> "EvalTransformConfig":
+    def load(cls, path: str | Path) -> EvalTransformConfig:
         data = json.loads(Path(path).read_text(encoding="utf-8"))
         data["mean"] = tuple(data["mean"])
         data["std"] = tuple(data["std"])
