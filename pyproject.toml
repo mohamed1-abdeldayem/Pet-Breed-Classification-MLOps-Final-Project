@@ -19,6 +19,8 @@ dependencies = [
     "matplotlib>=3.11.2",
     "mlflow>=3.16.1",
     "psycopg>=3.3.6",
+    "dvc>=3.67.1",
+    "dvc-gdrive>=3.0.1",
 ]
 
 [project.scripts]
