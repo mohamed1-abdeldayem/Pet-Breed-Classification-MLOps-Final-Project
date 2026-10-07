@@ -1,5 +1,9 @@
 [core]
-    remote = storage
+    remote = origin
 ['remote "storage"']
     url = https://dagshub.com/mabdeldayem052/pet-breed-mlops.dvc
-    auth = basic
+['remote "dagshub-s3"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/mabdeldayem052/pet-breed-mlops.s3
+['remote "origin"']
+    url = https://dagshub.com/mabdeldayem052/Pet-Breed-Classification-MLOps-Final-Project.dvc

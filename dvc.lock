@@ -1,0 +1,92 @@
+schema: '2.0'
+stages:
+  manifest:
+    cmd: uv run python data/build_manifest.py
+    deps:
+    - path: configs/label_map.json
+      hash: md5
+      md5: b4ca4136114dde067db535d6ea27cfe6
+      size: 789
+    - path: data/build_manifest.py
+      hash: md5
+      md5: 8603ea98f3bb588bfc98c30c5cb9113f
+      size: 4367
+    - path: data/raw/oxford-iiit-pet/annotations
+      hash: md5
+      md5: 6f5b834bbe4f6876d47dfc9a9b706c82.dir
+      size: 24542861
+      nfiles: 18471
+    - path: data/raw/oxford-iiit-pet/images
+      hash: md5
+      md5: 277f608c70d7bd7991e0cd5f5cc845c6.dir
+      size: 796502375
+      nfiles: 7393
+    outs:
+    - path: data/manifest.json
+      hash: md5
+      md5: a358646c09ea51504e95c2f49b7a3a21
+      size: 2020902
+    - path: data/splits/test.txt
+      hash: md5
+      md5: 0ff1551814a32e577060c58ad8e89367
+      size: 61303
+    - path: data/splits/train.txt
+      hash: md5
+      md5: 62ac9ceb965ffde0bec2d73671f1a443
+      size: 51779
+    - path: data/splits/val.txt
+      hash: md5
+      md5: f0fd0339960c11e3409d0bc08744cf4f
+      size: 12918
+  corrupted:
+    cmd: uv run python data/build_corrupted.py
+    deps:
+    - path: data/build_corrupted.py
+      hash: md5
+      md5: bf075006dee0e83d9f55975bb1220057
+      size: 2689
+    - path: data/manifest.json
+      hash: md5
+      md5: a358646c09ea51504e95c2f49b7a3a21
+      size: 2020902
+    - path: src/pet_breed_mlops/corruptions.py
+      hash: md5
+      md5: ed79a59ee0bfacdd0bc25c14f5ebb528
+      size: 2452
+    outs:
+    - path: data/corrupted
+      hash: md5
+      md5: 36e106ffe71c3fc183bdf33bf19dce7c.dir
+      size: 265790933
+      nfiles: 5400
+    - path: data/manifest_corrupted.json
+      hash: md5
+      md5: cb4cdfa588a61625e4fd39b8d6b38fbc
+      size: 1503633
+    - path: data/splits/drift_subset.txt
+      hash: md5
+      md5: 3574aad5116d9db37b5d35af86cc0e2e
+      size: 4876
+  extract:
+    cmd: uv run python data/extract_archive.py
+    deps:
+    - path: data/archive
+      hash: md5
+      md5: 4be61589bf5339c6b6b7b2fc36306d09.dir
+      size: 811092049
+      nfiles: 2
+    - path: data/extract_archive.py
+      hash: md5
+      md5: 0d24331855c2a40987fec250d39d6b57
+      size: 420
+    outs:
+    - path: data/raw/oxford-iiit-pet/annotations
+      hash: md5
+      md5: 6f5b834bbe4f6876d47dfc9a9b706c82.dir
+      size: 24542861
+      nfiles: 18471
+    - path: data/raw/oxford-iiit-pet/images
+      hash: md5
+      md5: 277f608c70d7bd7991e0cd5f5cc845c6.dir
+      size: 796502375
+      nfiles: 7393

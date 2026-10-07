@@ -12,3 +12,6 @@ wheels/
 .venv
 
 key.json
+
+models/*
+!models/.gitkeep

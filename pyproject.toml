@@ -21,6 +21,7 @@ dependencies = [
     "psycopg>=3.3.6",
     "dvc>=3.67.1",
     "dvc-gdrive>=3.0.1",
+    "dvc-s3>=3.3.0",
 ]
 
 [project.scripts]
