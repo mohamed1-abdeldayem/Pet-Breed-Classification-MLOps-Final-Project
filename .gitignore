@@ -15,3 +15,6 @@ key.json
 
 models/*
 !models/.gitkeep
+
+.idea/
+push.log
