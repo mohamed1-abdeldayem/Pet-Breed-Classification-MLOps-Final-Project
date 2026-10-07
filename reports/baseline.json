@@ -1,0 +1,10 @@
+{
+  "backbone": "resnet50",
+  "lr": 0.0003,
+  "batch_size": 64,
+  "epochs": 8,
+  "seed": 42,
+  "top1": 0.938858687877655,
+  "f1_macro": 0.9391878247261047,
+  "device": "cuda"
+}
