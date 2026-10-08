@@ -61,6 +61,10 @@ dev = [
 load = [
     "locust>=2.46.7",
 ]
+onnx = [
+    "onnx>=1.23.2",
+    "onnxruntime>=1.30.0",
+]
 
 [tool.ruff.lint.flake8-bugbear]
 extend-immutable-calls = ["fastapi.File", "fastapi.Depends", "fastapi.Query"]

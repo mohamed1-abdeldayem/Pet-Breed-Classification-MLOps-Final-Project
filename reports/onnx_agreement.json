@@ -1,0 +1,8 @@
+{
+  "n_images": 200,
+  "max_abs_diff": 9.5367431640625e-06,
+  "top1_agreement": 1.0,
+  "atol": 0.0001,
+  "passed": true,
+  "onnx_mb": 94.25363
+}
