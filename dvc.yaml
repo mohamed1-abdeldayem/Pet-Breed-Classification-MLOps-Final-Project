@@ -1,0 +1,36 @@
+stages:
+  extract:
+    cmd: uv run python data/extract_archive.py
+    deps:
+      - data/extract_archive.py
+      - data/archive
+    outs:
+      - data/raw/oxford-iiit-pet/images:
+          cache: false
+      - data/raw/oxford-iiit-pet/annotations:
+          cache: false
+
+  manifest:
+    cmd: uv run python data/build_manifest.py
+    deps:
+      - data/build_manifest.py
+      - data/raw/oxford-iiit-pet/images
+      - data/raw/oxford-iiit-pet/annotations
+      - configs/label_map.json
+    outs:
+      - data/manifest.json
+      - data/splits/train.txt
+      - data/splits/val.txt
+      - data/splits/test.txt
+
+  corrupted:
+    cmd: uv run python data/build_corrupted.py
+    deps:
+      - data/build_corrupted.py
+      - src/pet_breed_mlops/corruptions.py
+      - data/manifest.json
+    outs:
+      - data/corrupted:
+          cache: false
+      - data/manifest_corrupted.json
+      - data/splits/drift_subset.txt

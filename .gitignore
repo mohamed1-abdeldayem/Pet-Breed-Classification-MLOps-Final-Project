@@ -5,6 +5,16 @@ build/
 dist/
 wheels/
 *.egg-info
+*.pt
+.env
 
 # Virtual environments
 .venv
+
+key.json
+
+models/*
+!models/.gitkeep
+
+.idea/
+push.log
