@@ -64,6 +64,7 @@ load = [
 onnx = [
     "onnx>=1.23.2",
     "onnxruntime>=1.30.0",
+    "openvino>=2026.4.1",
 ]
 
 [tool.ruff.lint.flake8-bugbear]
