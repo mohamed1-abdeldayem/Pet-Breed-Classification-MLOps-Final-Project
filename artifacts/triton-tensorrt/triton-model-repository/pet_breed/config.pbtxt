@@ -1,0 +1,31 @@
+name: "pet_breed"
+platform: "tensorrt_plan"
+max_batch_size: 16
+
+input [
+  {
+    name: "image"
+    data_type: TYPE_FP16
+    dims: [ 3, 224, 224 ]
+  }
+]
+
+output [
+  {
+    name: "logits"
+    data_type: TYPE_FP16
+    dims: [ 37 ]
+  }
+]
+
+dynamic_batching {
+  preferred_batch_size: [ 8, 16 ]
+  max_queue_delay_microseconds: 1000
+}
+
+instance_group [
+  {
+    count: 1
+    kind: KIND_GPU
+  }
+]
