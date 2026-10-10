@@ -8,6 +8,33 @@ services:
       - ./models:/app/models:ro
     restart: unless-stopped
 
+  stable:
+    image: pet-breed
+    environment:
+      PET_MODEL_DIR: /app/models/resnet18
+    volumes:
+      - ./models:/app/models
+    restart: unless-stopped
+
+  canary:
+    image: pet-breed
+    environment:
+      PET_MODEL_DIR: /app/models/resnet50
+    volumes:
+      - ./models:/app/models
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8081:80"
+    volumes:
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - stable
+      - canary
+    restart: unless-stopped
+
   postgres:
     image: postgres:16
     environment:
