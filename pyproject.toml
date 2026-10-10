@@ -66,6 +66,9 @@ onnx = [
     "onnxruntime>=1.30.0",
     "openvino>=2026.4.1",
 ]
+serve = [
+    "bentoml>=1.4.39",
+]
 
 [tool.ruff.lint.flake8-bugbear]
 extend-immutable-calls = ["fastapi.File", "fastapi.Depends", "fastapi.Query"]
