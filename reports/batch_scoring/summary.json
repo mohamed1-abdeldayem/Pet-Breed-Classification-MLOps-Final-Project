@@ -1,0 +1,16 @@
+{
+  "model_version": "v1",
+  "backbone": "resnet50",
+  "input_dir": "data\\raw\\oxford-iiit-pet\\images",
+  "requested_images": 1000,
+  "successful_predictions": 1000,
+  "failed_images": 0,
+  "decision_counts": {
+    "confident": 900,
+    "uncertain": 100
+  },
+  "elapsed_seconds": 89.296,
+  "images_per_second": 11.199,
+  "predictions_csv": "reports\\batch_scoring\\predictions.csv",
+  "note": "Operational batch-scoring report; not a test-set accuracy evaluation."
+}
