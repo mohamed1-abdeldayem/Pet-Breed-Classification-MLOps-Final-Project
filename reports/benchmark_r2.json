@@ -1,0 +1,41 @@
+[
+  {
+    "backend": "pytorch",
+    "hardware": "laptop-cpu",
+    "batch": 1,
+    "runs": 1000,
+    "p50_ms": 91.89204999711365,
+    "p95_ms": 114.02059000465665,
+    "p99_ms": 142.01049800351026,
+    "throughput_img_s": 10.67414062593331,
+    "top1_val": 0.938858695652174,
+    "n_val": 736,
+    "size_mb": 94.6
+  },
+  {
+    "backend": "onnxruntime",
+    "hardware": "laptop-cpu",
+    "batch": 1,
+    "runs": 1000,
+    "p50_ms": 45.32640000252286,
+    "p95_ms": 52.07949999894481,
+    "p99_ms": 60.38755300018237,
+    "throughput_img_s": 21.976327337491192,
+    "top1_val": 0.938858695652174,
+    "n_val": 736,
+    "size_mb": 94.3
+  },
+  {
+    "backend": "openvino",
+    "hardware": "laptop-cpu",
+    "batch": 1,
+    "runs": 1000,
+    "p50_ms": 50.07669999758946,
+    "p95_ms": 63.347084995984915,
+    "p99_ms": 69.55666699344874,
+    "throughput_img_s": 19.18601309566246,
+    "top1_val": 0.938858695652174,
+    "n_val": 736,
+    "size_mb": 94.3
+  }
+]
