@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     )
 
     model_dir: Path = Path("models")
+    monitoring_baseline_path: Path = Path("reports/monitoring/baseline.json")
     max_upload_bytes: int = 5 * 1024 * 1024  # 5 MB
     threshold: float | None = None
     device: str = "cpu"
