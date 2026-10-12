@@ -4,9 +4,14 @@ import torch
 pytest.importorskip("onnxruntime")
 pytest.importorskip("onnx")
 
-from pet_breed_mlops.backbones import build_backbone  # noqa: E402
-from pet_breed_mlops.inference import save_checkpoint  # noqa: E402
-from pet_breed_mlops.onnx_export import ATOL, compare_logits, export_onnx, load_torch_model  # noqa: E402
+from pet_breed_mlops.backbones import build_backbone
+from pet_breed_mlops.inference import save_checkpoint
+from pet_breed_mlops.onnx_export import (
+    ATOL,
+    compare_logits,
+    export_onnx,
+    load_torch_model,
+)
 
 
 @pytest.fixture(scope="module")
