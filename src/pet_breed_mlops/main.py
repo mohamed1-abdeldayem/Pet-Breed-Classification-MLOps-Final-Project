@@ -45,11 +45,17 @@ DRIFT_WINDOW_READY = Gauge(
 
 class PredictionMetricsMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
-        response = await call_next(request)
+        if request.url.path != "/predict":
+            return await call_next(request)
 
-        if request.url.path == "/predict":
-            status = "success" if response.status_code < 400 else "failure"
-            PREDICTION_REQUESTS.labels(status=status).inc()
+        try:
+            response = await call_next(request)
+        except Exception:
+            PREDICTION_REQUESTS.labels(status="failure").inc()
+            raise
+
+        status = "success" if response.status_code < 400 else "failure"
+        PREDICTION_REQUESTS.labels(status=status).inc()
 
         return response
 

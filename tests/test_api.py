@@ -166,3 +166,52 @@ def test_drift_metrics_update_after_full_window(client) -> None:
         "pet_breed_drift_score",
     )
     assert drift_score > 0.0
+
+def test_prometheus_failure_metric_updates_on_prediction_exception(
+    model_dir, monkeypatch
+) -> None:
+    import re
+
+    app = create_app(Settings(model_dir=model_dir, max_upload_bytes=100_000))
+
+    with TestClient(app, raise_server_exceptions=False) as client:
+        before = client.get("/metrics")
+        assert before.status_code == 200
+
+        def metric_value(metrics: str, name: str) -> float:
+            match = re.search(
+                rf"^{re.escape(name)}\s+([0-9.eE+-]+)$",
+                metrics,
+                re.MULTILINE,
+            )
+            return float(match.group(1)) if match else 0.0
+
+        before_failure = metric_value(
+            before.text,
+            'pet_breed_prediction_requests_total{status="failure"}',
+        )
+
+        def raise_unexpected_error(self, image):
+            raise RuntimeError("simulated prediction failure")
+
+        monkeypatch.setattr(
+            "pet_breed_mlops.main.PetBreedClassifier.predict",
+            raise_unexpected_error,
+        )
+
+        response = _post(
+            client,
+            _img_bytes("RGB", "JPEG"),
+            "x.jpg",
+            "image/jpeg",
+        )
+        assert response.status_code == 500
+
+        after = client.get("/metrics")
+        assert after.status_code == 200
+
+        after_failure = metric_value(
+            after.text,
+            'pet_breed_prediction_requests_total{status="failure"}',
+        )
+        assert after_failure == before_failure + 1
