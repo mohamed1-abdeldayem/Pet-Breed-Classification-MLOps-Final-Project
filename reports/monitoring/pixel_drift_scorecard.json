@@ -1,0 +1,162 @@
+{
+  "split": "val",
+  "baseline_images": 368,
+  "calibration_images": 184,
+  "evaluation_images": 184,
+  "batch_size": 50,
+  "calibration_batches": 3,
+  "evaluation_clean_batches": 3,
+  "unused_calibration_images": 34,
+  "unused_evaluation_images": 34,
+  "threshold_method": "Maximum score among clean calibration batches",
+  "pixel_drift_threshold": 0.3916271456476087,
+  "clean_false_alarm_rate": 0.0,
+  "conditions_tested": 18,
+  "corruption_results": [
+    {
+      "corruption": "brightness_down",
+      "severity": 1,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 1.2899969934934112,
+      "max_score": 1.4313790820112708
+    },
+    {
+      "corruption": "brightness_down",
+      "severity": 2,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 2.0414436187593696,
+      "max_score": 2.133367536281842
+    },
+    {
+      "corruption": "brightness_down",
+      "severity": 3,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 2.833618572592382,
+      "max_score": 2.879193037458737
+    },
+    {
+      "corruption": "brightness_up",
+      "severity": 1,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 0.8923625906247161,
+      "max_score": 1.008350559303283
+    },
+    {
+      "corruption": "brightness_up",
+      "severity": 2,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 1.5560434940380727,
+      "max_score": 1.6990384241691883
+    },
+    {
+      "corruption": "brightness_up",
+      "severity": 3,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 2.2069735863394175,
+      "max_score": 2.344165361646028
+    },
+    {
+      "corruption": "gaussian_blur",
+      "severity": 1,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 1.0228001719018043,
+      "max_score": 1.0512608532572287
+    },
+    {
+      "corruption": "gaussian_blur",
+      "severity": 2,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 1.3231042766256078,
+      "max_score": 1.3362352254817051
+    },
+    {
+      "corruption": "gaussian_blur",
+      "severity": 3,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 1.483823678062354,
+      "max_score": 1.490691702808573
+    },
+    {
+      "corruption": "jpeg",
+      "severity": 1,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 2.522828343150179,
+      "max_score": 2.620621815947064
+    },
+    {
+      "corruption": "jpeg",
+      "severity": 2,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 5.387538500765792,
+      "max_score": 5.480270668188525
+    },
+    {
+      "corruption": "jpeg",
+      "severity": 3,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 10.865695641481244,
+      "max_score": 11.037747389584117
+    },
+    {
+      "corruption": "low_res",
+      "severity": 1,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 1.1860707039177083,
+      "max_score": 1.2049047888208633
+    },
+    {
+      "corruption": "low_res",
+      "severity": 2,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 1.3484991118127914,
+      "max_score": 1.3584466917832538
+    },
+    {
+      "corruption": "low_res",
+      "severity": 3,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 1.442213091276629,
+      "max_score": 1.448020409600153
+    },
+    {
+      "corruption": "motion_blur",
+      "severity": 1,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 0.8274282782466221,
+      "max_score": 0.8794378674007548
+    },
+    {
+      "corruption": "motion_blur",
+      "severity": 2,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 1.1027182379738993,
+      "max_score": 1.1393416561372363
+    },
+    {
+      "corruption": "motion_blur",
+      "severity": 3,
+      "batches": 3,
+      "detection_rate": 1.0,
+      "mean_score": 1.265349402636018,
+      "max_score": 1.294063312226363
+    }
+  ],
+  "note": "Validation-only pixel drift experiment. Baseline, calibration, and evaluation image IDs are disjoint. Corruption detection rates are batch-level estimates from the evaluation subset. A small number of clean calibration batches does not guarantee a production false-alarm rate."
+}
