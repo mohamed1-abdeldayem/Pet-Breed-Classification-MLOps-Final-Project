@@ -2,10 +2,13 @@ services:
   api:
     build: .
     image: pet-breed
+    environment:
+      PET_MODEL_DIR: /app/models/resnet50
     ports:
       - "8000:8000"
     volumes:
       - ./models:/app/models:ro
+      - ./reports/monitoring:/app/reports/monitoring:ro
     restart: unless-stopped
 
   stable:
@@ -63,6 +66,30 @@ services:
         --backend-store-uri postgresql+psycopg://mlflow:mlflow@postgres:5432/mlflow
         --artifacts-destination /mlartifacts --serve-artifacts
 
+  prometheus:
+    image: prom/prometheus:v3.5.0
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    depends_on:
+      - api
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:12.1.1
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./monitoring/grafana/dashboards:/etc/grafana/dashboards:ro
+      - ./monitoring/grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards:ro
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+
 volumes:
   pgdata:
   mlartifacts:
+  grafana-data:
