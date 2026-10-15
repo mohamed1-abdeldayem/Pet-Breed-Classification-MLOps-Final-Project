@@ -4,7 +4,7 @@ import argparse
 import os
 import platform
 import subprocess
-from datetime import date
+from datetime import datetime
 from pathlib import Path
 
 import torch
@@ -16,11 +16,11 @@ def cpu_name() -> str:
             out = subprocess.run(
                 ["powershell", "-NoProfile", "-Command",
                  "(Get-CimInstance Win32_Processor).Name"],
-                capture_output=True, text=True, timeout=15,
+                capture_output=True, text=True, timeout=15,check=False,
             ).stdout.strip()
             if out:
                 return out
-        except Exception:
+        except (OSError, subprocess.TimeoutExpired):
             pass
     return platform.processor() or "unknown"
 
@@ -38,7 +38,7 @@ def build(label: str) -> str:
     gpu = torch.cuda.get_device_name(0) if torch.cuda.is_available() else "none"
     return f"""# Hardware: {label}
 
-Measured on {date.today().isoformat()}. Every number tagged `{label}` in the
+Measured on {datetime.now().astimezone().date().isoformat()}. Every number tagged `{label}` in the
 benchmark table was produced on this machine with these settings.
 
 | Item | Value |

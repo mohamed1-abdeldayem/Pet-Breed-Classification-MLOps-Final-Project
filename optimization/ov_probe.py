@@ -28,5 +28,5 @@ for name, cfg in CONFIGS.items():
             compiled(x)
             t.append((time.perf_counter() - s) * 1000)
         print(f"{name:28s} p50={np.percentile(t, 50):6.1f}  p95={np.percentile(t, 95):6.1f} ms")
-    except Exception as e:
+    except RuntimeError as e:
         print(f"{name:28s} FAILED: {e!r}")
