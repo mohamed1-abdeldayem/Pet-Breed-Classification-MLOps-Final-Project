@@ -1,0 +1,162 @@
+{
+  "model_version": "v1",
+  "split": "val",
+  "baseline_images": 736,
+  "batch_size": 100,
+  "full_batches_per_condition": 7,
+  "unused_remainder_images": 36,
+  "threshold_method": "95th percentile of 1000 simulated clean batches",
+  "psi_threshold": 1.6023679779699929,
+  "calibration_seed": 42,
+  "simulated_clean_psi_p95": 1.6023679779699929,
+  "clean_false_alarm_rate": 0.0,
+  "clean_batches": 7,
+  "conditions_tested": 18,
+  "corruption_results": [
+    {
+      "corruption": "brightness_down",
+      "severity": 1,
+      "batches": 7,
+      "detection_rate": 0.0,
+      "mean_psi": 0.6332449126832528,
+      "max_psi": 1.0167019737230343
+    },
+    {
+      "corruption": "brightness_down",
+      "severity": 2,
+      "batches": 7,
+      "detection_rate": 0.0,
+      "mean_psi": 0.6473401010904883,
+      "max_psi": 1.0344087665316113
+    },
+    {
+      "corruption": "brightness_down",
+      "severity": 3,
+      "batches": 7,
+      "detection_rate": 0.0,
+      "mean_psi": 0.6104193235032042,
+      "max_psi": 0.8847324333183184
+    },
+    {
+      "corruption": "brightness_up",
+      "severity": 1,
+      "batches": 7,
+      "detection_rate": 0.0,
+      "mean_psi": 0.6091650437409574,
+      "max_psi": 0.9509399361294725
+    },
+    {
+      "corruption": "brightness_up",
+      "severity": 2,
+      "batches": 7,
+      "detection_rate": 0.0,
+      "mean_psi": 0.6415857338694931,
+      "max_psi": 0.9321701743887663
+    },
+    {
+      "corruption": "brightness_up",
+      "severity": 3,
+      "batches": 7,
+      "detection_rate": 0.0,
+      "mean_psi": 0.7193062269241116,
+      "max_psi": 1.3775680990794754
+    },
+    {
+      "corruption": "gaussian_blur",
+      "severity": 1,
+      "batches": 7,
+      "detection_rate": 0.0,
+      "mean_psi": 0.65734223179001,
+      "max_psi": 1.4006040543434377
+    },
+    {
+      "corruption": "gaussian_blur",
+      "severity": 2,
+      "batches": 7,
+      "detection_rate": 0.42857142857142855,
+      "mean_psi": 1.4843477571421935,
+      "max_psi": 2.214180965846339
+    },
+    {
+      "corruption": "gaussian_blur",
+      "severity": 3,
+      "batches": 7,
+      "detection_rate": 1.0,
+      "mean_psi": 5.549187805064068,
+      "max_psi": 6.162284950294458
+    },
+    {
+      "corruption": "jpeg",
+      "severity": 1,
+      "batches": 7,
+      "detection_rate": 0.0,
+      "mean_psi": 0.7803564917019499,
+      "max_psi": 1.2289985620749668
+    },
+    {
+      "corruption": "jpeg",
+      "severity": 2,
+      "batches": 7,
+      "detection_rate": 0.2857142857142857,
+      "mean_psi": 1.4870654634461264,
+      "max_psi": 2.376078502545137
+    },
+    {
+      "corruption": "jpeg",
+      "severity": 3,
+      "batches": 7,
+      "detection_rate": 1.0,
+      "mean_psi": 2.9852579164299184,
+      "max_psi": 3.809507662717212
+    },
+    {
+      "corruption": "low_res",
+      "severity": 1,
+      "batches": 7,
+      "detection_rate": 0.0,
+      "mean_psi": 0.907408250574483,
+      "max_psi": 1.3248501465892324
+    },
+    {
+      "corruption": "low_res",
+      "severity": 2,
+      "batches": 7,
+      "detection_rate": 1.0,
+      "mean_psi": 3.614687044421516,
+      "max_psi": 4.515915362157621
+    },
+    {
+      "corruption": "low_res",
+      "severity": 3,
+      "batches": 7,
+      "detection_rate": 1.0,
+      "mean_psi": 5.611918406242892,
+      "max_psi": 6.415352387296484
+    },
+    {
+      "corruption": "motion_blur",
+      "severity": 1,
+      "batches": 7,
+      "detection_rate": 0.0,
+      "mean_psi": 0.5760361452268954,
+      "max_psi": 0.8166064122685734
+    },
+    {
+      "corruption": "motion_blur",
+      "severity": 2,
+      "batches": 7,
+      "detection_rate": 0.2857142857142857,
+      "mean_psi": 1.3816707694124337,
+      "max_psi": 2.02099127632207
+    },
+    {
+      "corruption": "motion_blur",
+      "severity": 3,
+      "batches": 7,
+      "detection_rate": 1.0,
+      "mean_psi": 4.059147554513587,
+      "max_psi": 4.610701739897713
+    }
+  ],
+  "note": "Validation-only detector evaluation based on predicted-breed distribution PSI. Detection rates use full batches only. Clean false-alarm rate is estimated from a small number of validation batches; it is not a production guarantee."
+}
