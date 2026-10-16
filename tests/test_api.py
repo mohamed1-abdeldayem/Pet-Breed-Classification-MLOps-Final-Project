@@ -215,3 +215,11 @@ def test_prometheus_failure_metric_updates_on_prediction_exception(
             'pet_breed_prediction_requests_total{status="failure"}',
         )
         assert after_failure == before_failure + 1
+
+
+def test_prometheus_request_counters_exist_at_zero(client) -> None:
+    metrics = client.get("/metrics")
+    assert metrics.status_code == 200
+
+    assert 'pet_breed_prediction_requests_total{status="success"} 0.0' in metrics.text
+    assert 'pet_breed_prediction_requests_total{status="failure"} 0.0' in metrics.text

@@ -21,6 +21,9 @@ PREDICTION_REQUESTS = Counter(
     ["status"],
 )
 
+PREDICTION_REQUESTS.labels(status="success")
+PREDICTION_REQUESTS.labels(status="failure")
+
 PREDICTION_DURATION = Histogram(
     "pet_breed_prediction_duration_seconds",
     "Prediction request duration in seconds",
