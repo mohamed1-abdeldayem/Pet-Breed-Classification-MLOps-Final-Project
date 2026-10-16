@@ -22,6 +22,8 @@ dependencies = [
     "dvc>=3.67.1",
     "dvc-gdrive>=3.0.1",
     "dvc-s3>=3.3.0",
+    "prometheus-client>=0.26.0",
+    "evidently>=0.7.23",
 ]
 
 [project.scripts]
@@ -56,6 +58,18 @@ dev = [
     "ruff>=0.16.10",
     "pre-commit>=4.6.2",
     "httpx>=0.28.1",
+    "psutil>=7.2.2",
+]
+load = [
+    "locust>=2.46.7",
+]
+onnx = [
+    "onnx>=1.23.2",
+    "onnxruntime>=1.30.0",
+    "openvino>=2026.4.1",
+]
+serve = [
+    "bentoml>=1.4.39",
 ]
 
 [tool.ruff.lint.flake8-bugbear]

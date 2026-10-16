@@ -1,0 +1,12 @@
+﻿groups:
+  - name: pet-breed-drift
+    interval: 15s
+    rules:
+      - alert: PetBreedPredictionDrift
+        expr: (pet_breed_drift_window_ready == 1) and (pet_breed_drift_score > 1.602368)
+        for: 30s
+        labels:
+          severity: warning
+        annotations:
+          summary: "Pet breed prediction drift detected"
+          description: "The PSI score exceeded the experimental threshold of 1.602368 after the prediction window became ready."

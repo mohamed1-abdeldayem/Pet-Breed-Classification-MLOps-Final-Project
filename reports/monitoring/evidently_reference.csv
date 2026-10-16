@@ -1,0 +1,737 @@
+image_id,true_breed,true_species,predicted_breed,species,confidence,decision,model_version,corruption,severity
+Abyssinian_10,Abyssinian,cat,Abyssinian,cat,0.8417832255363464,confident,v1,none,0
+Abyssinian_107,Abyssinian,cat,Abyssinian,cat,0.8508405685424805,confident,v1,none,0
+Abyssinian_108,Abyssinian,cat,Abyssinian,cat,0.9611776471138,confident,v1,none,0
+Abyssinian_112,Abyssinian,cat,Abyssinian,cat,0.9916241765022278,confident,v1,none,0
+Abyssinian_132,Abyssinian,cat,Abyssinian,cat,0.9941222071647644,confident,v1,none,0
+Abyssinian_136,Abyssinian,cat,Abyssinian,cat,0.9582812190055847,confident,v1,none,0
+Abyssinian_137,Abyssinian,cat,Abyssinian,cat,0.9706704616546631,confident,v1,none,0
+Abyssinian_14,Abyssinian,cat,Abyssinian,cat,0.9936289191246033,confident,v1,none,0
+Abyssinian_142,Abyssinian,cat,Abyssinian,cat,0.9878174662590027,confident,v1,none,0
+Abyssinian_144,Abyssinian,cat,Abyssinian,cat,0.9981979727745056,confident,v1,none,0
+Abyssinian_15,Abyssinian,cat,Abyssinian,cat,0.8278167247772217,confident,v1,none,0
+Abyssinian_150,Abyssinian,cat,Abyssinian,cat,0.9593295454978943,confident,v1,none,0
+Abyssinian_159,Abyssinian,cat,Abyssinian,cat,0.9552669525146484,confident,v1,none,0
+Abyssinian_165,Abyssinian,cat,Abyssinian,cat,0.9981592297554016,confident,v1,none,0
+Abyssinian_167,Abyssinian,cat,Abyssinian,cat,0.993298351764679,confident,v1,none,0
+Abyssinian_168,Abyssinian,cat,Abyssinian,cat,0.6627180576324463,uncertain,v1,none,0
+Abyssinian_170,Abyssinian,cat,Abyssinian,cat,0.34295693039894104,uncertain,v1,none,0
+Abyssinian_173,Abyssinian,cat,Abyssinian,cat,0.9980854988098145,confident,v1,none,0
+Abyssinian_185,Abyssinian,cat,Abyssinian,cat,0.9821481704711914,confident,v1,none,0
+Abyssinian_19,Abyssinian,cat,Abyssinian,cat,0.9986351132392883,confident,v1,none,0
+Bengal_102,Bengal,cat,Bengal,cat,0.9954995512962341,confident,v1,none,0
+Bengal_107,Bengal,cat,Bengal,cat,0.9928454756736755,confident,v1,none,0
+Bengal_11,Bengal,cat,Bengal,cat,0.9936262369155884,confident,v1,none,0
+Bengal_118,Bengal,cat,Bengal,cat,0.9969182014465332,confident,v1,none,0
+Bengal_120,Bengal,cat,Bengal,cat,0.9959710240364075,confident,v1,none,0
+Bengal_13,Bengal,cat,Bengal,cat,0.8794409036636353,confident,v1,none,0
+Bengal_130,Bengal,cat,Bengal,cat,0.9983295798301697,confident,v1,none,0
+Bengal_14,Bengal,cat,Bengal,cat,0.8591166138648987,confident,v1,none,0
+Bengal_141,Bengal,cat,Bengal,cat,0.9761227965354919,confident,v1,none,0
+Bengal_151,Bengal,cat,Bengal,cat,0.9746379852294922,confident,v1,none,0
+Bengal_155,Bengal,cat,Abyssinian,cat,0.9358550906181335,confident,v1,none,0
+Bengal_156,Bengal,cat,Bengal,cat,0.9636802077293396,confident,v1,none,0
+Bengal_157,Bengal,cat,Bengal,cat,0.4668804407119751,uncertain,v1,none,0
+Bengal_16,Bengal,cat,Bengal,cat,0.993738055229187,confident,v1,none,0
+Bengal_160,Bengal,cat,Bengal,cat,0.924933671951294,confident,v1,none,0
+Bengal_164,Bengal,cat,Abyssinian,cat,0.8255389928817749,confident,v1,none,0
+Bengal_168,Bengal,cat,Egyptian Mau,cat,0.8086651563644409,confident,v1,none,0
+Bengal_17,Bengal,cat,Bengal,cat,0.9994434714317322,confident,v1,none,0
+Bengal_172,Bengal,cat,Bengal,cat,0.9885115623474121,confident,v1,none,0
+Bengal_173,Bengal,cat,Bengal,cat,0.7913742065429688,uncertain,v1,none,0
+Birman_102,Birman,cat,Birman,cat,0.9909222722053528,confident,v1,none,0
+Birman_11,Birman,cat,Birman,cat,0.9216551780700684,confident,v1,none,0
+Birman_111,Birman,cat,Birman,cat,0.978137731552124,confident,v1,none,0
+Birman_113,Birman,cat,Birman,cat,0.9929509162902832,confident,v1,none,0
+Birman_114,Birman,cat,Birman,cat,0.9970736503601074,confident,v1,none,0
+Birman_116,Birman,cat,Birman,cat,0.9956077933311462,confident,v1,none,0
+Birman_118,Birman,cat,Birman,cat,0.9831417798995972,confident,v1,none,0
+Birman_137,Birman,cat,Birman,cat,0.7965788841247559,confident,v1,none,0
+Birman_141,Birman,cat,Birman,cat,0.9414243698120117,confident,v1,none,0
+Birman_145,Birman,cat,Birman,cat,0.9590802788734436,confident,v1,none,0
+Birman_15,Birman,cat,Birman,cat,0.6351569890975952,uncertain,v1,none,0
+Birman_157,Birman,cat,Birman,cat,0.9093425869941711,confident,v1,none,0
+Birman_158,Birman,cat,Birman,cat,0.9672727584838867,confident,v1,none,0
+Birman_163,Birman,cat,Birman,cat,0.9920477271080017,confident,v1,none,0
+Birman_167,Birman,cat,Birman,cat,0.969535231590271,confident,v1,none,0
+Birman_180,Birman,cat,Birman,cat,0.8634727001190186,confident,v1,none,0
+Birman_181,Birman,cat,Birman,cat,0.9856398105621338,confident,v1,none,0
+Birman_182,Birman,cat,Birman,cat,0.9665202498435974,confident,v1,none,0
+Birman_187,Birman,cat,Birman,cat,0.9944033622741699,confident,v1,none,0
+Birman_188,Birman,cat,Birman,cat,0.9861802458763123,confident,v1,none,0
+Bombay_10,Bombay,cat,Bombay,cat,0.9941756725311279,confident,v1,none,0
+Bombay_12,Bombay,cat,Bombay,cat,0.9903358221054077,confident,v1,none,0
+Bombay_132,Bombay,cat,Bombay,cat,0.9985944628715515,confident,v1,none,0
+Bombay_134,Bombay,cat,Bombay,cat,0.9982884526252747,confident,v1,none,0
+Bombay_15,Bombay,cat,Bombay,cat,0.9989352822303772,confident,v1,none,0
+Bombay_151,Bombay,cat,Bombay,cat,0.9986431002616882,confident,v1,none,0
+Bombay_154,Bombay,cat,Bombay,cat,0.9949246644973755,confident,v1,none,0
+Bombay_155,Bombay,cat,Bombay,cat,0.9977725148200989,confident,v1,none,0
+Bombay_156,Bombay,cat,Bombay,cat,0.8658204674720764,confident,v1,none,0
+Bombay_160,Bombay,cat,Bombay,cat,0.9532668590545654,confident,v1,none,0
+Bombay_163,Bombay,cat,Bombay,cat,0.9985455274581909,confident,v1,none,0
+Bombay_164,Bombay,cat,Bombay,cat,0.999078631401062,confident,v1,none,0
+Bombay_168,Bombay,cat,Bombay,cat,0.9953669309616089,confident,v1,none,0
+Bombay_169,Bombay,cat,Bombay,cat,0.9616616368293762,confident,v1,none,0
+Bombay_173,Bombay,cat,Bombay,cat,0.998329222202301,confident,v1,none,0
+Bombay_184,Bombay,cat,Bombay,cat,0.9992616772651672,confident,v1,none,0
+Bombay_188,Bombay,cat,Bombay,cat,0.7727494835853577,uncertain,v1,none,0
+Bombay_19,Bombay,cat,Bombay,cat,0.9973800778388977,confident,v1,none,0
+Bombay_198,Bombay,cat,Bombay,cat,0.9995991587638855,confident,v1,none,0
+British_Shorthair_100,British Shorthair,cat,British Shorthair,cat,0.9932408332824707,confident,v1,none,0
+British_Shorthair_105,British Shorthair,cat,British Shorthair,cat,0.9956169128417969,confident,v1,none,0
+British_Shorthair_110,British Shorthair,cat,British Shorthair,cat,0.9990593791007996,confident,v1,none,0
+British_Shorthair_112,British Shorthair,cat,British Shorthair,cat,0.9636397957801819,confident,v1,none,0
+British_Shorthair_114,British Shorthair,cat,British Shorthair,cat,0.9984421133995056,confident,v1,none,0
+British_Shorthair_115,British Shorthair,cat,British Shorthair,cat,0.998325526714325,confident,v1,none,0
+British_Shorthair_122,British Shorthair,cat,British Shorthair,cat,0.990294337272644,confident,v1,none,0
+British_Shorthair_153,British Shorthair,cat,British Shorthair,cat,0.9990736246109009,confident,v1,none,0
+British_Shorthair_155,British Shorthair,cat,British Shorthair,cat,0.9973694086074829,confident,v1,none,0
+British_Shorthair_158,British Shorthair,cat,British Shorthair,cat,0.9987150430679321,confident,v1,none,0
+British_Shorthair_16,British Shorthair,cat,British Shorthair,cat,0.9995115995407104,confident,v1,none,0
+British_Shorthair_161,British Shorthair,cat,British Shorthair,cat,0.997031569480896,confident,v1,none,0
+British_Shorthair_165,British Shorthair,cat,British Shorthair,cat,0.9940950870513916,confident,v1,none,0
+British_Shorthair_186,British Shorthair,cat,British Shorthair,cat,0.9963900446891785,confident,v1,none,0
+British_Shorthair_195,British Shorthair,cat,British Shorthair,cat,0.9829079508781433,confident,v1,none,0
+British_Shorthair_196,British Shorthair,cat,British Shorthair,cat,0.9769852161407471,confident,v1,none,0
+British_Shorthair_197,British Shorthair,cat,British Shorthair,cat,0.9969610571861267,confident,v1,none,0
+British_Shorthair_201,British Shorthair,cat,British Shorthair,cat,0.9988069534301758,confident,v1,none,0
+British_Shorthair_203,British Shorthair,cat,British Shorthair,cat,0.999103307723999,confident,v1,none,0
+British_Shorthair_204,British Shorthair,cat,British Shorthair,cat,0.9992414712905884,confident,v1,none,0
+Egyptian_Mau_10,Egyptian Mau,cat,Egyptian Mau,cat,0.9999388456344604,confident,v1,none,0
+Egyptian_Mau_107,Egyptian Mau,cat,Egyptian Mau,cat,0.99925297498703,confident,v1,none,0
+Egyptian_Mau_115,Egyptian Mau,cat,Bengal,cat,0.5371840596199036,uncertain,v1,none,0
+Egyptian_Mau_120,Egyptian Mau,cat,Egyptian Mau,cat,0.9979730248451233,confident,v1,none,0
+Egyptian_Mau_122,Egyptian Mau,cat,Egyptian Mau,cat,0.9982407093048096,confident,v1,none,0
+Egyptian_Mau_123,Egyptian Mau,cat,Egyptian Mau,cat,0.999941349029541,confident,v1,none,0
+Egyptian_Mau_126,Egyptian Mau,cat,Egyptian Mau,cat,0.9960423707962036,confident,v1,none,0
+Egyptian_Mau_13,Egyptian Mau,cat,Egyptian Mau,cat,0.9997929930686951,confident,v1,none,0
+Egyptian_Mau_132,Egyptian Mau,cat,Bengal,cat,0.5384460687637329,uncertain,v1,none,0
+Egyptian_Mau_133,Egyptian Mau,cat,Egyptian Mau,cat,0.9996670484542847,confident,v1,none,0
+Egyptian_Mau_134,Egyptian Mau,cat,Egyptian Mau,cat,0.9993877410888672,confident,v1,none,0
+Egyptian_Mau_143,Egyptian Mau,cat,Egyptian Mau,cat,0.9999837875366211,confident,v1,none,0
+Egyptian_Mau_165,Egyptian Mau,cat,Bengal,cat,0.9794826507568359,confident,v1,none,0
+Egyptian_Mau_171,Egyptian Mau,cat,Egyptian Mau,cat,0.8911528587341309,confident,v1,none,0
+Egyptian_Mau_172,Egyptian Mau,cat,Egyptian Mau,cat,0.7747340202331543,uncertain,v1,none,0
+Egyptian_Mau_174,Egyptian Mau,cat,Egyptian Mau,cat,0.9991501569747925,confident,v1,none,0
+Egyptian_Mau_178,Egyptian Mau,cat,Egyptian Mau,cat,0.4862672984600067,uncertain,v1,none,0
+Egyptian_Mau_18,Egyptian Mau,cat,Egyptian Mau,cat,0.9015788435935974,confident,v1,none,0
+Egyptian_Mau_192,Egyptian Mau,cat,Egyptian Mau,cat,0.9905807375907898,confident,v1,none,0
+Maine_Coon_10,Maine Coon,cat,Maine Coon,cat,0.7413986325263977,uncertain,v1,none,0
+Maine_Coon_104,Maine Coon,cat,Maine Coon,cat,0.8641448020935059,confident,v1,none,0
+Maine_Coon_109,Maine Coon,cat,Maine Coon,cat,0.8093447089195251,confident,v1,none,0
+Maine_Coon_112,Maine Coon,cat,Maine Coon,cat,0.997992753982544,confident,v1,none,0
+Maine_Coon_119,Maine Coon,cat,Maine Coon,cat,0.9920642971992493,confident,v1,none,0
+Maine_Coon_121,Maine Coon,cat,Maine Coon,cat,0.8773760199546814,confident,v1,none,0
+Maine_Coon_126,Maine Coon,cat,Maine Coon,cat,0.9995684027671814,confident,v1,none,0
+Maine_Coon_13,Maine Coon,cat,Maine Coon,cat,0.9964305758476257,confident,v1,none,0
+Maine_Coon_131,Maine Coon,cat,Maine Coon,cat,0.9974279999732971,confident,v1,none,0
+Maine_Coon_134,Maine Coon,cat,Maine Coon,cat,0.9559194445610046,confident,v1,none,0
+Maine_Coon_136,Maine Coon,cat,Maine Coon,cat,0.959755539894104,confident,v1,none,0
+Maine_Coon_151,Maine Coon,cat,Maine Coon,cat,0.9968487620353699,confident,v1,none,0
+Maine_Coon_17,Maine Coon,cat,Maine Coon,cat,0.9991045594215393,confident,v1,none,0
+Maine_Coon_176,Maine Coon,cat,Maine Coon,cat,0.9648166298866272,confident,v1,none,0
+Maine_Coon_182,Maine Coon,cat,Maine Coon,cat,0.9998101592063904,confident,v1,none,0
+Maine_Coon_186,Maine Coon,cat,Maine Coon,cat,0.9950902462005615,confident,v1,none,0
+Maine_Coon_191,Maine Coon,cat,Maine Coon,cat,0.9948232173919678,confident,v1,none,0
+Maine_Coon_194,Maine Coon,cat,Maine Coon,cat,0.9840503334999084,confident,v1,none,0
+Maine_Coon_195,Maine Coon,cat,Maine Coon,cat,0.9956943988800049,confident,v1,none,0
+Maine_Coon_201,Maine Coon,cat,Maine Coon,cat,0.9904142022132874,confident,v1,none,0
+Persian_100,Persian,cat,Persian,cat,0.9897083044052124,confident,v1,none,0
+Persian_106,Persian,cat,Persian,cat,0.9924002885818481,confident,v1,none,0
+Persian_11,Persian,cat,Persian,cat,0.9967969059944153,confident,v1,none,0
+Persian_112,Persian,cat,Persian,cat,0.9934957027435303,confident,v1,none,0
+Persian_129,Persian,cat,Persian,cat,0.9887813329696655,confident,v1,none,0
+Persian_13,Persian,cat,Persian,cat,0.9955488443374634,confident,v1,none,0
+Persian_131,Persian,cat,Persian,cat,0.9957648515701294,confident,v1,none,0
+Persian_140,Persian,cat,Persian,cat,0.9933145642280579,confident,v1,none,0
+Persian_162,Persian,cat,Persian,cat,0.9908012747764587,confident,v1,none,0
+Persian_164,Persian,cat,Persian,cat,0.9965317845344543,confident,v1,none,0
+Persian_174,Persian,cat,Persian,cat,0.9917002320289612,confident,v1,none,0
+Persian_179,Persian,cat,Persian,cat,0.9963216781616211,confident,v1,none,0
+Persian_18,Persian,cat,Persian,cat,0.9929452538490295,confident,v1,none,0
+Persian_180,Persian,cat,Persian,cat,0.9955364465713501,confident,v1,none,0
+Persian_187,Persian,cat,Persian,cat,0.9786396026611328,confident,v1,none,0
+Persian_189,Persian,cat,Persian,cat,0.9921951293945312,confident,v1,none,0
+Persian_19,Persian,cat,Persian,cat,0.9947360157966614,confident,v1,none,0
+Persian_196,Persian,cat,Persian,cat,0.9928328990936279,confident,v1,none,0
+Persian_20,Persian,cat,Persian,cat,0.9917929768562317,confident,v1,none,0
+Persian_200,Persian,cat,Persian,cat,0.9946950078010559,confident,v1,none,0
+Ragdoll_10,Ragdoll,cat,Ragdoll,cat,0.5818613171577454,uncertain,v1,none,0
+Ragdoll_101,Ragdoll,cat,Ragdoll,cat,0.45060965418815613,uncertain,v1,none,0
+Ragdoll_105,Ragdoll,cat,Ragdoll,cat,0.9993786811828613,confident,v1,none,0
+Ragdoll_111,Ragdoll,cat,Birman,cat,0.5561566352844238,uncertain,v1,none,0
+Ragdoll_113,Ragdoll,cat,Ragdoll,cat,0.6098673343658447,uncertain,v1,none,0
+Ragdoll_116,Ragdoll,cat,Ragdoll,cat,0.994716227054596,confident,v1,none,0
+Ragdoll_121,Ragdoll,cat,Ragdoll,cat,0.9992361068725586,confident,v1,none,0
+Ragdoll_136,Ragdoll,cat,Birman,cat,0.8267866373062134,confident,v1,none,0
+Ragdoll_137,Ragdoll,cat,Birman,cat,0.972176194190979,confident,v1,none,0
+Ragdoll_138,Ragdoll,cat,Birman,cat,0.8642939329147339,confident,v1,none,0
+Ragdoll_150,Ragdoll,cat,Ragdoll,cat,0.9975557327270508,confident,v1,none,0
+Ragdoll_162,Ragdoll,cat,Ragdoll,cat,0.9616207480430603,confident,v1,none,0
+Ragdoll_163,Ragdoll,cat,Ragdoll,cat,0.9974738955497742,confident,v1,none,0
+Ragdoll_172,Ragdoll,cat,Ragdoll,cat,0.9963118433952332,confident,v1,none,0
+Ragdoll_179,Ragdoll,cat,Ragdoll,cat,0.9706587791442871,confident,v1,none,0
+Ragdoll_181,Ragdoll,cat,Ragdoll,cat,0.9401136636734009,confident,v1,none,0
+Ragdoll_183,Ragdoll,cat,Ragdoll,cat,0.6215417385101318,uncertain,v1,none,0
+Ragdoll_184,Ragdoll,cat,Ragdoll,cat,0.9610025882720947,confident,v1,none,0
+Ragdoll_195,Ragdoll,cat,Ragdoll,cat,0.9993870258331299,confident,v1,none,0
+Ragdoll_199,Ragdoll,cat,Ragdoll,cat,0.9997513890266418,confident,v1,none,0
+Russian_Blue_1,Russian Blue,cat,Abyssinian,cat,0.665558934211731,uncertain,v1,none,0
+Russian_Blue_102,Russian Blue,cat,Russian Blue,cat,0.9983288645744324,confident,v1,none,0
+Russian_Blue_109,Russian Blue,cat,Russian Blue,cat,0.9976892471313477,confident,v1,none,0
+Russian_Blue_124,Russian Blue,cat,Russian Blue,cat,0.9924923777580261,confident,v1,none,0
+Russian_Blue_131,Russian Blue,cat,Russian Blue,cat,0.9967490434646606,confident,v1,none,0
+Russian_Blue_136,Russian Blue,cat,Russian Blue,cat,0.5471274852752686,uncertain,v1,none,0
+Russian_Blue_14,Russian Blue,cat,Russian Blue,cat,0.9963085055351257,confident,v1,none,0
+Russian_Blue_144,Russian Blue,cat,Russian Blue,cat,0.9985538125038147,confident,v1,none,0
+Russian_Blue_147,Russian Blue,cat,Russian Blue,cat,0.9636266231536865,confident,v1,none,0
+Russian_Blue_148,Russian Blue,cat,Russian Blue,cat,0.9948018789291382,confident,v1,none,0
+Russian_Blue_160,Russian Blue,cat,Russian Blue,cat,0.9934566617012024,confident,v1,none,0
+Russian_Blue_162,Russian Blue,cat,Russian Blue,cat,0.9996331930160522,confident,v1,none,0
+Russian_Blue_17,Russian Blue,cat,Russian Blue,cat,0.992070734500885,confident,v1,none,0
+Russian_Blue_172,Russian Blue,cat,Russian Blue,cat,0.9969534873962402,confident,v1,none,0
+Russian_Blue_176,Russian Blue,cat,Russian Blue,cat,0.9882955551147461,confident,v1,none,0
+Russian_Blue_180,Russian Blue,cat,Russian Blue,cat,0.998817503452301,confident,v1,none,0
+Russian_Blue_181,Russian Blue,cat,Russian Blue,cat,0.9980517625808716,confident,v1,none,0
+Russian_Blue_19,Russian Blue,cat,Russian Blue,cat,0.989888608455658,confident,v1,none,0
+Russian_Blue_193,Russian Blue,cat,Russian Blue,cat,0.9994599223136902,confident,v1,none,0
+Russian_Blue_195,Russian Blue,cat,Russian Blue,cat,0.9945046305656433,confident,v1,none,0
+Siamese_101,Siamese,cat,Siamese,cat,0.9889442920684814,confident,v1,none,0
+Siamese_117,Siamese,cat,Siamese,cat,0.9988012313842773,confident,v1,none,0
+Siamese_135,Siamese,cat,Siamese,cat,0.9590041637420654,confident,v1,none,0
+Siamese_136,Siamese,cat,Siamese,cat,0.999339759349823,confident,v1,none,0
+Siamese_138,Siamese,cat,Siamese,cat,0.9324398040771484,confident,v1,none,0
+Siamese_142,Siamese,cat,Birman,cat,0.7981736660003662,confident,v1,none,0
+Siamese_144,Siamese,cat,Siamese,cat,0.9864611029624939,confident,v1,none,0
+Siamese_146,Siamese,cat,Siamese,cat,0.9970340728759766,confident,v1,none,0
+Siamese_148,Siamese,cat,Siamese,cat,0.9896618127822876,confident,v1,none,0
+Siamese_154,Siamese,cat,Siamese,cat,0.9888895750045776,confident,v1,none,0
+Siamese_160,Siamese,cat,Siamese,cat,0.9819601774215698,confident,v1,none,0
+Siamese_165,Siamese,cat,Siamese,cat,0.9960677623748779,confident,v1,none,0
+Siamese_169,Siamese,cat,Siamese,cat,0.997468113899231,confident,v1,none,0
+Siamese_171,Siamese,cat,Siamese,cat,0.9919316172599792,confident,v1,none,0
+Siamese_175,Siamese,cat,Siamese,cat,0.9941211342811584,confident,v1,none,0
+Siamese_183,Siamese,cat,Siamese,cat,0.7640276551246643,uncertain,v1,none,0
+Siamese_187,Siamese,cat,Siamese,cat,0.9975683093070984,confident,v1,none,0
+Siamese_195,Siamese,cat,Siamese,cat,0.9913979768753052,confident,v1,none,0
+Siamese_196,Siamese,cat,Siamese,cat,0.9960141181945801,confident,v1,none,0
+Siamese_199,Siamese,cat,Siamese,cat,0.9844595193862915,confident,v1,none,0
+Sphynx_1,Sphynx,cat,Sphynx,cat,0.9795528054237366,confident,v1,none,0
+Sphynx_111,Sphynx,cat,Boxer,dog,0.729720950126648,uncertain,v1,none,0
+Sphynx_115,Sphynx,cat,Sphynx,cat,0.9916049242019653,confident,v1,none,0
+Sphynx_125,Sphynx,cat,Sphynx,cat,0.9072173833847046,confident,v1,none,0
+Sphynx_134,Sphynx,cat,Sphynx,cat,0.9992413520812988,confident,v1,none,0
+Sphynx_136,Sphynx,cat,Sphynx,cat,0.9986637830734253,confident,v1,none,0
+Sphynx_137,Sphynx,cat,Sphynx,cat,0.9959537982940674,confident,v1,none,0
+Sphynx_138,Sphynx,cat,Sphynx,cat,0.9955188035964966,confident,v1,none,0
+Sphynx_139,Sphynx,cat,Sphynx,cat,0.9967825412750244,confident,v1,none,0
+Sphynx_145,Sphynx,cat,Sphynx,cat,0.990947425365448,confident,v1,none,0
+Sphynx_151,Sphynx,cat,Sphynx,cat,0.9932395219802856,confident,v1,none,0
+Sphynx_159,Sphynx,cat,Sphynx,cat,0.997208297252655,confident,v1,none,0
+Sphynx_175,Sphynx,cat,Sphynx,cat,0.9840790629386902,confident,v1,none,0
+Sphynx_178,Sphynx,cat,Sphynx,cat,0.9884472489356995,confident,v1,none,0
+Sphynx_181,Sphynx,cat,Sphynx,cat,0.9975800514221191,confident,v1,none,0
+Sphynx_183,Sphynx,cat,Sphynx,cat,0.994081437587738,confident,v1,none,0
+Sphynx_185,Sphynx,cat,Sphynx,cat,0.9168192148208618,confident,v1,none,0
+Sphynx_186,Sphynx,cat,Sphynx,cat,0.9953492283821106,confident,v1,none,0
+Sphynx_191,Sphynx,cat,Sphynx,cat,0.9748191237449646,confident,v1,none,0
+Sphynx_194,Sphynx,cat,Sphynx,cat,0.9433509707450867,confident,v1,none,0
+american_bulldog_101,American Bulldog,dog,Staffordshire Bull Terrier,dog,0.7052143216133118,uncertain,v1,none,0
+american_bulldog_103,American Bulldog,dog,American Bulldog,dog,0.9322019219398499,confident,v1,none,0
+american_bulldog_104,American Bulldog,dog,Staffordshire Bull Terrier,dog,0.9691386222839355,confident,v1,none,0
+american_bulldog_111,American Bulldog,dog,American Bulldog,dog,0.9927302002906799,confident,v1,none,0
+american_bulldog_12,American Bulldog,dog,American Bulldog,dog,0.9982538819313049,confident,v1,none,0
+american_bulldog_121,American Bulldog,dog,American Bulldog,dog,0.9322589635848999,confident,v1,none,0
+american_bulldog_122,American Bulldog,dog,American Bulldog,dog,0.9199737906455994,confident,v1,none,0
+american_bulldog_123,American Bulldog,dog,American Bulldog,dog,0.849677562713623,confident,v1,none,0
+american_bulldog_127,American Bulldog,dog,American Bulldog,dog,0.8427005410194397,confident,v1,none,0
+american_bulldog_134,American Bulldog,dog,American Bulldog,dog,0.9296799302101135,confident,v1,none,0
+american_bulldog_138,American Bulldog,dog,American Bulldog,dog,0.9971485733985901,confident,v1,none,0
+american_bulldog_14,American Bulldog,dog,American Bulldog,dog,0.8496270775794983,confident,v1,none,0
+american_bulldog_148,American Bulldog,dog,Beagle,dog,0.902797281742096,confident,v1,none,0
+american_bulldog_152,American Bulldog,dog,Boxer,dog,0.5535198450088501,uncertain,v1,none,0
+american_bulldog_161,American Bulldog,dog,American Bulldog,dog,0.997050404548645,confident,v1,none,0
+american_bulldog_171,American Bulldog,dog,American Bulldog,dog,0.9744311571121216,confident,v1,none,0
+american_bulldog_173,American Bulldog,dog,American Bulldog,dog,0.9183014035224915,confident,v1,none,0
+american_bulldog_180,American Bulldog,dog,American Bulldog,dog,0.9939649701118469,confident,v1,none,0
+american_bulldog_182,American Bulldog,dog,American Bulldog,dog,0.9851816296577454,confident,v1,none,0
+american_bulldog_188,American Bulldog,dog,American Bulldog,dog,0.6745613217353821,uncertain,v1,none,0
+american_pit_bull_terrier_109,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9991186261177063,confident,v1,none,0
+american_pit_bull_terrier_112,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9992905855178833,confident,v1,none,0
+american_pit_bull_terrier_116,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.903989851474762,confident,v1,none,0
+american_pit_bull_terrier_117,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.997977077960968,confident,v1,none,0
+american_pit_bull_terrier_120,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9568012952804565,confident,v1,none,0
+american_pit_bull_terrier_129,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.998754620552063,confident,v1,none,0
+american_pit_bull_terrier_13,American Pit Bull Terrier,dog,American Bulldog,dog,0.5200471878051758,uncertain,v1,none,0
+american_pit_bull_terrier_133,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9999513626098633,confident,v1,none,0
+american_pit_bull_terrier_134,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.988734781742096,confident,v1,none,0
+american_pit_bull_terrier_135,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9956633448600769,confident,v1,none,0
+american_pit_bull_terrier_142,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9998756647109985,confident,v1,none,0
+american_pit_bull_terrier_143,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9993733763694763,confident,v1,none,0
+american_pit_bull_terrier_144,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9692967534065247,confident,v1,none,0
+american_pit_bull_terrier_160,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9979152083396912,confident,v1,none,0
+american_pit_bull_terrier_161,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9950354099273682,confident,v1,none,0
+american_pit_bull_terrier_166,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9459073543548584,confident,v1,none,0
+american_pit_bull_terrier_167,American Pit Bull Terrier,dog,Chihuahua,dog,0.5187712907791138,uncertain,v1,none,0
+american_pit_bull_terrier_17,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.6686253547668457,uncertain,v1,none,0
+american_pit_bull_terrier_179,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9999125003814697,confident,v1,none,0
+american_pit_bull_terrier_180,American Pit Bull Terrier,dog,American Pit Bull Terrier,dog,0.9762553572654724,confident,v1,none,0
+basset_hound_100,Basset Hound,dog,Basset Hound,dog,0.997346043586731,confident,v1,none,0
+basset_hound_101,Basset Hound,dog,Basset Hound,dog,0.9930593967437744,confident,v1,none,0
+basset_hound_11,Basset Hound,dog,Basset Hound,dog,0.9961775541305542,confident,v1,none,0
+basset_hound_110,Basset Hound,dog,Basset Hound,dog,0.998390793800354,confident,v1,none,0
+basset_hound_112,Basset Hound,dog,Basset Hound,dog,0.9861030578613281,confident,v1,none,0
+basset_hound_119,Basset Hound,dog,Basset Hound,dog,0.9987233281135559,confident,v1,none,0
+basset_hound_121,Basset Hound,dog,Basset Hound,dog,0.9944652915000916,confident,v1,none,0
+basset_hound_122,Basset Hound,dog,Basset Hound,dog,0.9980251789093018,confident,v1,none,0
+basset_hound_124,Basset Hound,dog,Basset Hound,dog,0.9814179539680481,confident,v1,none,0
+basset_hound_138,Basset Hound,dog,Basset Hound,dog,0.8945090770721436,confident,v1,none,0
+basset_hound_14,Basset Hound,dog,English Setter,dog,0.7803460359573364,uncertain,v1,none,0
+basset_hound_141,Basset Hound,dog,Basset Hound,dog,0.9927236437797546,confident,v1,none,0
+basset_hound_149,Basset Hound,dog,Basset Hound,dog,0.9967606663703918,confident,v1,none,0
+basset_hound_150,Basset Hound,dog,Basset Hound,dog,0.5615144968032837,uncertain,v1,none,0
+basset_hound_162,Basset Hound,dog,Basset Hound,dog,0.9874677658081055,confident,v1,none,0
+basset_hound_17,Basset Hound,dog,Basset Hound,dog,0.9938966631889343,confident,v1,none,0
+basset_hound_171,Basset Hound,dog,Basset Hound,dog,0.9990509152412415,confident,v1,none,0
+basset_hound_180,Basset Hound,dog,Beagle,dog,0.6577198505401611,uncertain,v1,none,0
+basset_hound_181,Basset Hound,dog,Basset Hound,dog,0.9991317391395569,confident,v1,none,0
+basset_hound_185,Basset Hound,dog,Basset Hound,dog,0.7172332406044006,uncertain,v1,none,0
+beagle_107,Beagle,dog,Beagle,dog,0.9969978332519531,confident,v1,none,0
+beagle_111,Beagle,dog,Beagle,dog,0.9988477230072021,confident,v1,none,0
+beagle_122,Beagle,dog,Beagle,dog,0.9831936359405518,confident,v1,none,0
+beagle_131,Beagle,dog,Beagle,dog,0.9894763231277466,confident,v1,none,0
+beagle_133,Beagle,dog,Beagle,dog,0.9953293800354004,confident,v1,none,0
+beagle_134,Beagle,dog,Beagle,dog,0.9871399998664856,confident,v1,none,0
+beagle_135,Beagle,dog,American Pit Bull Terrier,dog,0.9193769097328186,confident,v1,none,0
+beagle_139,Beagle,dog,Basset Hound,dog,0.7646433115005493,uncertain,v1,none,0
+beagle_154,Beagle,dog,Beagle,dog,0.8485323786735535,confident,v1,none,0
+beagle_155,Beagle,dog,Beagle,dog,0.999872088432312,confident,v1,none,0
+beagle_157,Beagle,dog,Beagle,dog,0.9976518750190735,confident,v1,none,0
+beagle_158,Beagle,dog,Beagle,dog,0.942748486995697,confident,v1,none,0
+beagle_160,Beagle,dog,Beagle,dog,0.9975773692131042,confident,v1,none,0
+beagle_172,Beagle,dog,Beagle,dog,0.9859301447868347,confident,v1,none,0
+beagle_173,Beagle,dog,Beagle,dog,0.9241439700126648,confident,v1,none,0
+beagle_176,Beagle,dog,Beagle,dog,0.9985049962997437,confident,v1,none,0
+beagle_179,Beagle,dog,Beagle,dog,0.8157315254211426,confident,v1,none,0
+beagle_188,Beagle,dog,English Setter,dog,0.9525471925735474,confident,v1,none,0
+beagle_192,Beagle,dog,Beagle,dog,0.9996709823608398,confident,v1,none,0
+beagle_193,Beagle,dog,Beagle,dog,0.9981556534767151,confident,v1,none,0
+boxer_103,Boxer,dog,Boxer,dog,0.9978341460227966,confident,v1,none,0
+boxer_106,Boxer,dog,Boxer,dog,0.9951413869857788,confident,v1,none,0
+boxer_108,Boxer,dog,Boxer,dog,0.9918165802955627,confident,v1,none,0
+boxer_114,Boxer,dog,Boxer,dog,0.9938502311706543,confident,v1,none,0
+boxer_118,Boxer,dog,Boxer,dog,0.900789737701416,confident,v1,none,0
+boxer_119,Boxer,dog,Boxer,dog,0.9973394274711609,confident,v1,none,0
+boxer_12,Boxer,dog,Boxer,dog,0.9955548644065857,confident,v1,none,0
+boxer_122,Boxer,dog,Boxer,dog,0.9038296937942505,confident,v1,none,0
+boxer_123,Boxer,dog,Boxer,dog,0.9695767164230347,confident,v1,none,0
+boxer_124,Boxer,dog,Boxer,dog,0.9630166888237,confident,v1,none,0
+boxer_137,Boxer,dog,Boxer,dog,0.9930793642997742,confident,v1,none,0
+boxer_139,Boxer,dog,Boxer,dog,0.9704210758209229,confident,v1,none,0
+boxer_155,Boxer,dog,American Bulldog,dog,0.9805725812911987,confident,v1,none,0
+boxer_161,Boxer,dog,Beagle,dog,0.49681565165519714,uncertain,v1,none,0
+boxer_162,Boxer,dog,Boxer,dog,0.9926784038543701,confident,v1,none,0
+boxer_166,Boxer,dog,Boxer,dog,0.988379716873169,confident,v1,none,0
+boxer_169,Boxer,dog,Basset Hound,dog,0.6268150210380554,uncertain,v1,none,0
+boxer_172,Boxer,dog,Boxer,dog,0.8358638286590576,confident,v1,none,0
+boxer_178,Boxer,dog,Boxer,dog,0.9982032775878906,confident,v1,none,0
+boxer_181,Boxer,dog,Boxer,dog,0.9778882265090942,confident,v1,none,0
+chihuahua_100,Chihuahua,dog,Chihuahua,dog,0.9945616126060486,confident,v1,none,0
+chihuahua_119,Chihuahua,dog,Chihuahua,dog,0.9889428615570068,confident,v1,none,0
+chihuahua_12,Chihuahua,dog,Chihuahua,dog,0.988860011100769,confident,v1,none,0
+chihuahua_120,Chihuahua,dog,Chihuahua,dog,0.9906396865844727,confident,v1,none,0
+chihuahua_133,Chihuahua,dog,Chihuahua,dog,0.9976187348365784,confident,v1,none,0
+chihuahua_135,Chihuahua,dog,Chihuahua,dog,0.8689119219779968,confident,v1,none,0
+chihuahua_144,Chihuahua,dog,Chihuahua,dog,0.8550560474395752,confident,v1,none,0
+chihuahua_145,Chihuahua,dog,Chihuahua,dog,0.9578354358673096,confident,v1,none,0
+chihuahua_15,Chihuahua,dog,Japanese Chin,dog,0.8470075130462646,confident,v1,none,0
+chihuahua_151,Chihuahua,dog,Chihuahua,dog,0.998422384262085,confident,v1,none,0
+chihuahua_155,Chihuahua,dog,Chihuahua,dog,0.9960195422172546,confident,v1,none,0
+chihuahua_160,Chihuahua,dog,Chihuahua,dog,0.9906607270240784,confident,v1,none,0
+chihuahua_164,Chihuahua,dog,Chihuahua,dog,0.9979224801063538,confident,v1,none,0
+chihuahua_166,Chihuahua,dog,Chihuahua,dog,0.9752261638641357,confident,v1,none,0
+chihuahua_167,Chihuahua,dog,Chihuahua,dog,0.9960228204727173,confident,v1,none,0
+chihuahua_170,Chihuahua,dog,Chihuahua,dog,0.9987884163856506,confident,v1,none,0
+chihuahua_181,Chihuahua,dog,Chihuahua,dog,0.8743599057197571,confident,v1,none,0
+chihuahua_187,Chihuahua,dog,Chihuahua,dog,0.825315535068512,confident,v1,none,0
+chihuahua_189,Chihuahua,dog,Chihuahua,dog,0.9986112117767334,confident,v1,none,0
+chihuahua_190,Chihuahua,dog,Chihuahua,dog,0.978427529335022,confident,v1,none,0
+english_cocker_spaniel_10,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9985963702201843,confident,v1,none,0
+english_cocker_spaniel_103,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9951913356781006,confident,v1,none,0
+english_cocker_spaniel_106,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9985886216163635,confident,v1,none,0
+english_cocker_spaniel_119,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9889351725578308,confident,v1,none,0
+english_cocker_spaniel_12,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9968459010124207,confident,v1,none,0
+english_cocker_spaniel_124,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9928544163703918,confident,v1,none,0
+english_cocker_spaniel_128,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9956138134002686,confident,v1,none,0
+english_cocker_spaniel_142,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9786843657493591,confident,v1,none,0
+english_cocker_spaniel_146,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9861994981765747,confident,v1,none,0
+english_cocker_spaniel_156,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9938614368438721,confident,v1,none,0
+english_cocker_spaniel_16,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.7816480398178101,uncertain,v1,none,0
+english_cocker_spaniel_160,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9948647618293762,confident,v1,none,0
+english_cocker_spaniel_161,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9630388021469116,confident,v1,none,0
+english_cocker_spaniel_166,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9978505373001099,confident,v1,none,0
+english_cocker_spaniel_168,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9962083101272583,confident,v1,none,0
+english_cocker_spaniel_177,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9941892623901367,confident,v1,none,0
+english_cocker_spaniel_181,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9976874589920044,confident,v1,none,0
+english_cocker_spaniel_185,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.983758807182312,confident,v1,none,0
+english_cocker_spaniel_188,English Cocker Spaniel,dog,English Cocker Spaniel,dog,0.9919773936271667,confident,v1,none,0
+english_setter_108,English Setter,dog,English Setter,dog,0.9972383975982666,confident,v1,none,0
+english_setter_11,English Setter,dog,English Setter,dog,0.9965422749519348,confident,v1,none,0
+english_setter_114,English Setter,dog,English Setter,dog,0.974521279335022,confident,v1,none,0
+english_setter_118,English Setter,dog,English Setter,dog,0.9934296011924744,confident,v1,none,0
+english_setter_129,English Setter,dog,English Setter,dog,0.998471200466156,confident,v1,none,0
+english_setter_13,English Setter,dog,English Setter,dog,0.1276782751083374,uncertain,v1,none,0
+english_setter_131,English Setter,dog,English Setter,dog,0.9699033498764038,confident,v1,none,0
+english_setter_132,English Setter,dog,English Setter,dog,0.9970226883888245,confident,v1,none,0
+english_setter_133,English Setter,dog,English Setter,dog,0.9786402583122253,confident,v1,none,0
+english_setter_135,English Setter,dog,English Setter,dog,0.9764436483383179,confident,v1,none,0
+english_setter_136,English Setter,dog,English Setter,dog,0.9984717965126038,confident,v1,none,0
+english_setter_138,English Setter,dog,English Setter,dog,0.9980598092079163,confident,v1,none,0
+english_setter_141,English Setter,dog,English Setter,dog,0.925126850605011,confident,v1,none,0
+english_setter_143,English Setter,dog,English Cocker Spaniel,dog,0.7295475602149963,uncertain,v1,none,0
+english_setter_149,English Setter,dog,English Setter,dog,0.9942607879638672,confident,v1,none,0
+english_setter_163,English Setter,dog,English Setter,dog,0.9972386360168457,confident,v1,none,0
+english_setter_167,English Setter,dog,English Setter,dog,0.997829020023346,confident,v1,none,0
+english_setter_169,English Setter,dog,Wheaten Terrier,dog,0.425988107919693,uncertain,v1,none,0
+english_setter_184,English Setter,dog,English Setter,dog,0.9981568455696106,confident,v1,none,0
+english_setter_189,English Setter,dog,English Setter,dog,0.9890372157096863,confident,v1,none,0
+german_shorthaired_10,German Shorthaired,dog,German Shorthaired,dog,0.9677969813346863,confident,v1,none,0
+german_shorthaired_100,German Shorthaired,dog,German Shorthaired,dog,0.9952419996261597,confident,v1,none,0
+german_shorthaired_110,German Shorthaired,dog,German Shorthaired,dog,0.9455100893974304,confident,v1,none,0
+german_shorthaired_113,German Shorthaired,dog,German Shorthaired,dog,0.9983686804771423,confident,v1,none,0
+german_shorthaired_117,German Shorthaired,dog,Miniature Pinscher,dog,0.788360059261322,uncertain,v1,none,0
+german_shorthaired_12,German Shorthaired,dog,German Shorthaired,dog,0.9991139769554138,confident,v1,none,0
+german_shorthaired_13,German Shorthaired,dog,German Shorthaired,dog,0.9971334934234619,confident,v1,none,0
+german_shorthaired_132,German Shorthaired,dog,German Shorthaired,dog,0.2859903872013092,uncertain,v1,none,0
+german_shorthaired_135,German Shorthaired,dog,German Shorthaired,dog,0.9994708895683289,confident,v1,none,0
+german_shorthaired_138,German Shorthaired,dog,German Shorthaired,dog,0.9917821884155273,confident,v1,none,0
+german_shorthaired_139,German Shorthaired,dog,German Shorthaired,dog,0.976880669593811,confident,v1,none,0
+german_shorthaired_140,German Shorthaired,dog,German Shorthaired,dog,0.9879129528999329,confident,v1,none,0
+german_shorthaired_147,German Shorthaired,dog,German Shorthaired,dog,0.9984776377677917,confident,v1,none,0
+german_shorthaired_15,German Shorthaired,dog,German Shorthaired,dog,0.9966973066329956,confident,v1,none,0
+german_shorthaired_157,German Shorthaired,dog,German Shorthaired,dog,0.9884876608848572,confident,v1,none,0
+german_shorthaired_161,German Shorthaired,dog,German Shorthaired,dog,0.9787002205848694,confident,v1,none,0
+german_shorthaired_162,German Shorthaired,dog,German Shorthaired,dog,0.9805400967597961,confident,v1,none,0
+german_shorthaired_164,German Shorthaired,dog,German Shorthaired,dog,0.9964603781700134,confident,v1,none,0
+german_shorthaired_177,German Shorthaired,dog,German Shorthaired,dog,0.9961104989051819,confident,v1,none,0
+german_shorthaired_180,German Shorthaired,dog,German Shorthaired,dog,0.9989318251609802,confident,v1,none,0
+great_pyrenees_101,Great Pyrenees,dog,Great Pyrenees,dog,0.9982715845108032,confident,v1,none,0
+great_pyrenees_103,Great Pyrenees,dog,Great Pyrenees,dog,0.9983421564102173,confident,v1,none,0
+great_pyrenees_105,Great Pyrenees,dog,Great Pyrenees,dog,0.9986106157302856,confident,v1,none,0
+great_pyrenees_110,Great Pyrenees,dog,Great Pyrenees,dog,0.9982821941375732,confident,v1,none,0
+great_pyrenees_121,Great Pyrenees,dog,Great Pyrenees,dog,0.995506763458252,confident,v1,none,0
+great_pyrenees_122,Great Pyrenees,dog,Great Pyrenees,dog,0.9801831245422363,confident,v1,none,0
+great_pyrenees_127,Great Pyrenees,dog,Great Pyrenees,dog,0.9982048273086548,confident,v1,none,0
+great_pyrenees_133,Great Pyrenees,dog,Great Pyrenees,dog,0.9781692028045654,confident,v1,none,0
+great_pyrenees_140,Great Pyrenees,dog,Great Pyrenees,dog,0.6887761950492859,uncertain,v1,none,0
+great_pyrenees_145,Great Pyrenees,dog,Great Pyrenees,dog,0.9989225268363953,confident,v1,none,0
+great_pyrenees_15,Great Pyrenees,dog,Great Pyrenees,dog,0.9988319277763367,confident,v1,none,0
+great_pyrenees_151,Great Pyrenees,dog,Great Pyrenees,dog,0.9983956217765808,confident,v1,none,0
+great_pyrenees_153,Great Pyrenees,dog,Great Pyrenees,dog,0.9919970631599426,confident,v1,none,0
+great_pyrenees_154,Great Pyrenees,dog,Great Pyrenees,dog,0.9967042803764343,confident,v1,none,0
+great_pyrenees_160,Great Pyrenees,dog,Great Pyrenees,dog,0.9979590177536011,confident,v1,none,0
+great_pyrenees_163,Great Pyrenees,dog,Great Pyrenees,dog,0.9789390563964844,confident,v1,none,0
+great_pyrenees_167,Great Pyrenees,dog,Great Pyrenees,dog,0.9993078708648682,confident,v1,none,0
+great_pyrenees_179,Great Pyrenees,dog,Great Pyrenees,dog,0.9901852607727051,confident,v1,none,0
+great_pyrenees_184,Great Pyrenees,dog,Pomeranian,dog,0.9621630311012268,confident,v1,none,0
+great_pyrenees_185,Great Pyrenees,dog,Samoyed,dog,0.9751536250114441,confident,v1,none,0
+havanese_10,Havanese,dog,Havanese,dog,0.7068849802017212,uncertain,v1,none,0
+havanese_100,Havanese,dog,Havanese,dog,0.820513129234314,confident,v1,none,0
+havanese_102,Havanese,dog,Havanese,dog,0.9928989410400391,confident,v1,none,0
+havanese_115,Havanese,dog,Havanese,dog,0.9173423051834106,confident,v1,none,0
+havanese_116,Havanese,dog,Havanese,dog,0.9984435439109802,confident,v1,none,0
+havanese_117,Havanese,dog,Havanese,dog,0.9953285455703735,confident,v1,none,0
+havanese_120,Havanese,dog,Havanese,dog,0.9959805011749268,confident,v1,none,0
+havanese_121,Havanese,dog,English Cocker Spaniel,dog,0.9227765202522278,confident,v1,none,0
+havanese_122,Havanese,dog,Havanese,dog,0.9981766939163208,confident,v1,none,0
+havanese_127,Havanese,dog,Havanese,dog,0.9451765418052673,confident,v1,none,0
+havanese_131,Havanese,dog,Havanese,dog,0.9978020787239075,confident,v1,none,0
+havanese_138,Havanese,dog,Havanese,dog,0.9520208835601807,confident,v1,none,0
+havanese_153,Havanese,dog,Scottish Terrier,dog,0.6019405722618103,uncertain,v1,none,0
+havanese_156,Havanese,dog,Havanese,dog,0.9893107414245605,confident,v1,none,0
+havanese_157,Havanese,dog,Havanese,dog,0.9994171857833862,confident,v1,none,0
+havanese_16,Havanese,dog,Havanese,dog,0.9406655430793762,confident,v1,none,0
+havanese_162,Havanese,dog,Havanese,dog,0.9990102052688599,confident,v1,none,0
+havanese_172,Havanese,dog,Havanese,dog,0.972881019115448,confident,v1,none,0
+havanese_175,Havanese,dog,Havanese,dog,0.9980635046958923,confident,v1,none,0
+havanese_189,Havanese,dog,Havanese,dog,0.9899483919143677,confident,v1,none,0
+japanese_chin_100,Japanese Chin,dog,Japanese Chin,dog,0.9960883855819702,confident,v1,none,0
+japanese_chin_101,Japanese Chin,dog,Japanese Chin,dog,0.9874023795127869,confident,v1,none,0
+japanese_chin_102,Japanese Chin,dog,Japanese Chin,dog,0.9991576671600342,confident,v1,none,0
+japanese_chin_112,Japanese Chin,dog,Japanese Chin,dog,0.9918935894966125,confident,v1,none,0
+japanese_chin_115,Japanese Chin,dog,Japanese Chin,dog,0.9971633553504944,confident,v1,none,0
+japanese_chin_116,Japanese Chin,dog,Japanese Chin,dog,0.9957364797592163,confident,v1,none,0
+japanese_chin_125,Japanese Chin,dog,Japanese Chin,dog,0.992962658405304,confident,v1,none,0
+japanese_chin_126,Japanese Chin,dog,Japanese Chin,dog,0.9882760643959045,confident,v1,none,0
+japanese_chin_127,Japanese Chin,dog,Japanese Chin,dog,0.9336764812469482,confident,v1,none,0
+japanese_chin_135,Japanese Chin,dog,Japanese Chin,dog,0.9977479577064514,confident,v1,none,0
+japanese_chin_136,Japanese Chin,dog,Japanese Chin,dog,0.9979952573776245,confident,v1,none,0
+japanese_chin_155,Japanese Chin,dog,Japanese Chin,dog,0.9980029463768005,confident,v1,none,0
+japanese_chin_156,Japanese Chin,dog,Japanese Chin,dog,0.9982404708862305,confident,v1,none,0
+japanese_chin_157,Japanese Chin,dog,Japanese Chin,dog,0.9956561326980591,confident,v1,none,0
+japanese_chin_159,Japanese Chin,dog,Japanese Chin,dog,0.998730480670929,confident,v1,none,0
+japanese_chin_164,Japanese Chin,dog,Japanese Chin,dog,0.9993384480476379,confident,v1,none,0
+japanese_chin_169,Japanese Chin,dog,Japanese Chin,dog,0.9959231615066528,confident,v1,none,0
+japanese_chin_173,Japanese Chin,dog,Japanese Chin,dog,0.9939589500427246,confident,v1,none,0
+japanese_chin_177,Japanese Chin,dog,Japanese Chin,dog,0.9973905682563782,confident,v1,none,0
+japanese_chin_18,Japanese Chin,dog,Japanese Chin,dog,0.99874347448349,confident,v1,none,0
+keeshond_10,Keeshond,dog,Keeshond,dog,0.999314546585083,confident,v1,none,0
+keeshond_106,Keeshond,dog,Keeshond,dog,0.9898763298988342,confident,v1,none,0
+keeshond_11,Keeshond,dog,Keeshond,dog,0.9933034777641296,confident,v1,none,0
+keeshond_110,Keeshond,dog,Keeshond,dog,0.9971219897270203,confident,v1,none,0
+keeshond_114,Keeshond,dog,Keeshond,dog,0.9977250695228577,confident,v1,none,0
+keeshond_128,Keeshond,dog,Keeshond,dog,0.9830226302146912,confident,v1,none,0
+keeshond_13,Keeshond,dog,Keeshond,dog,0.9591858983039856,confident,v1,none,0
+keeshond_130,Keeshond,dog,Leonberger,dog,0.8277463912963867,confident,v1,none,0
+keeshond_131,Keeshond,dog,Keeshond,dog,0.9916788935661316,confident,v1,none,0
+keeshond_133,Keeshond,dog,Keeshond,dog,0.9975564479827881,confident,v1,none,0
+keeshond_134,Keeshond,dog,Leonberger,dog,0.9033911228179932,confident,v1,none,0
+keeshond_136,Keeshond,dog,Keeshond,dog,0.9939267039299011,confident,v1,none,0
+keeshond_137,Keeshond,dog,Keeshond,dog,0.9978273510932922,confident,v1,none,0
+keeshond_140,Keeshond,dog,Keeshond,dog,0.997901201248169,confident,v1,none,0
+keeshond_162,Keeshond,dog,Keeshond,dog,0.9947918057441711,confident,v1,none,0
+keeshond_169,Keeshond,dog,Keeshond,dog,0.9983186721801758,confident,v1,none,0
+keeshond_17,Keeshond,dog,Keeshond,dog,0.9918137788772583,confident,v1,none,0
+keeshond_177,Keeshond,dog,Keeshond,dog,0.9926711320877075,confident,v1,none,0
+keeshond_18,Keeshond,dog,Keeshond,dog,0.9962853193283081,confident,v1,none,0
+keeshond_188,Keeshond,dog,Keeshond,dog,0.9953565001487732,confident,v1,none,0
+leonberger_102,Leonberger,dog,Leonberger,dog,0.9974920749664307,confident,v1,none,0
+leonberger_106,Leonberger,dog,Leonberger,dog,0.995320737361908,confident,v1,none,0
+leonberger_111,Leonberger,dog,Leonberger,dog,0.9982457160949707,confident,v1,none,0
+leonberger_117,Leonberger,dog,Leonberger,dog,0.9962738752365112,confident,v1,none,0
+leonberger_118,Leonberger,dog,Leonberger,dog,0.9983336329460144,confident,v1,none,0
+leonberger_123,Leonberger,dog,Leonberger,dog,0.9998216032981873,confident,v1,none,0
+leonberger_124,Leonberger,dog,Leonberger,dog,0.9994398951530457,confident,v1,none,0
+leonberger_125,Leonberger,dog,Leonberger,dog,0.9993647933006287,confident,v1,none,0
+leonberger_129,Leonberger,dog,Leonberger,dog,0.9913893342018127,confident,v1,none,0
+leonberger_13,Leonberger,dog,Leonberger,dog,0.9984896183013916,confident,v1,none,0
+leonberger_131,Leonberger,dog,Leonberger,dog,0.9995843768119812,confident,v1,none,0
+leonberger_137,Leonberger,dog,Leonberger,dog,0.9996436834335327,confident,v1,none,0
+leonberger_139,Leonberger,dog,Leonberger,dog,0.9996731281280518,confident,v1,none,0
+leonberger_15,Leonberger,dog,Leonberger,dog,0.9939802885055542,confident,v1,none,0
+leonberger_155,Leonberger,dog,Leonberger,dog,0.9906366467475891,confident,v1,none,0
+leonberger_163,Leonberger,dog,Leonberger,dog,0.9954599738121033,confident,v1,none,0
+leonberger_183,Leonberger,dog,Leonberger,dog,0.801805317401886,confident,v1,none,0
+leonberger_184,Leonberger,dog,Leonberger,dog,0.9973551034927368,confident,v1,none,0
+leonberger_186,Leonberger,dog,Leonberger,dog,0.9969667792320251,confident,v1,none,0
+leonberger_188,Leonberger,dog,Leonberger,dog,0.9978234767913818,confident,v1,none,0
+miniature_pinscher_10,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9727188944816589,confident,v1,none,0
+miniature_pinscher_100,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9936409592628479,confident,v1,none,0
+miniature_pinscher_105,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9793360829353333,confident,v1,none,0
+miniature_pinscher_111,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9926320314407349,confident,v1,none,0
+miniature_pinscher_119,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9944553971290588,confident,v1,none,0
+miniature_pinscher_120,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9678146243095398,confident,v1,none,0
+miniature_pinscher_121,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9988993406295776,confident,v1,none,0
+miniature_pinscher_128,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9385898113250732,confident,v1,none,0
+miniature_pinscher_130,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9851289987564087,confident,v1,none,0
+miniature_pinscher_132,Miniature Pinscher,dog,Miniature Pinscher,dog,0.989083468914032,confident,v1,none,0
+miniature_pinscher_14,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9848686456680298,confident,v1,none,0
+miniature_pinscher_140,Miniature Pinscher,dog,Abyssinian,cat,0.32379260659217834,uncertain,v1,none,0
+miniature_pinscher_149,Miniature Pinscher,dog,Miniature Pinscher,dog,0.7526808977127075,uncertain,v1,none,0
+miniature_pinscher_154,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9978062510490417,confident,v1,none,0
+miniature_pinscher_16,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9843185544013977,confident,v1,none,0
+miniature_pinscher_164,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9986542463302612,confident,v1,none,0
+miniature_pinscher_168,Miniature Pinscher,dog,Miniature Pinscher,dog,0.995305061340332,confident,v1,none,0
+miniature_pinscher_17,Miniature Pinscher,dog,Miniature Pinscher,dog,0.8261999487876892,confident,v1,none,0
+miniature_pinscher_177,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9954941272735596,confident,v1,none,0
+miniature_pinscher_178,Miniature Pinscher,dog,Miniature Pinscher,dog,0.9983443021774292,confident,v1,none,0
+newfoundland_101,Newfoundland,dog,Newfoundland,dog,0.9941348433494568,confident,v1,none,0
+newfoundland_103,Newfoundland,dog,Newfoundland,dog,0.9957312941551208,confident,v1,none,0
+newfoundland_107,Newfoundland,dog,Newfoundland,dog,0.9995243549346924,confident,v1,none,0
+newfoundland_11,Newfoundland,dog,Newfoundland,dog,0.9984670281410217,confident,v1,none,0
+newfoundland_112,Newfoundland,dog,Newfoundland,dog,0.9978715181350708,confident,v1,none,0
+newfoundland_120,Newfoundland,dog,Newfoundland,dog,0.9978811144828796,confident,v1,none,0
+newfoundland_124,Newfoundland,dog,Newfoundland,dog,0.9985339641571045,confident,v1,none,0
+newfoundland_13,Newfoundland,dog,Newfoundland,dog,0.9962586164474487,confident,v1,none,0
+newfoundland_133,Newfoundland,dog,Newfoundland,dog,0.7337146401405334,uncertain,v1,none,0
+newfoundland_144,Newfoundland,dog,Newfoundland,dog,0.9976661205291748,confident,v1,none,0
+newfoundland_145,Newfoundland,dog,Newfoundland,dog,0.9992438554763794,confident,v1,none,0
+newfoundland_158,Newfoundland,dog,Newfoundland,dog,0.9986039996147156,confident,v1,none,0
+newfoundland_160,Newfoundland,dog,Newfoundland,dog,0.9989596605300903,confident,v1,none,0
+newfoundland_164,Newfoundland,dog,Newfoundland,dog,0.7478286623954773,uncertain,v1,none,0
+newfoundland_168,Newfoundland,dog,Newfoundland,dog,0.9987000226974487,confident,v1,none,0
+newfoundland_169,Newfoundland,dog,Newfoundland,dog,0.9825125932693481,confident,v1,none,0
+newfoundland_181,Newfoundland,dog,Newfoundland,dog,0.9293670058250427,confident,v1,none,0
+newfoundland_183,Newfoundland,dog,Newfoundland,dog,0.9979488253593445,confident,v1,none,0
+newfoundland_184,Newfoundland,dog,Newfoundland,dog,0.9924083948135376,confident,v1,none,0
+pomeranian_100,Pomeranian,dog,Pomeranian,dog,0.9832487106323242,confident,v1,none,0
+pomeranian_101,Pomeranian,dog,Pomeranian,dog,0.9855577349662781,confident,v1,none,0
+pomeranian_106,Pomeranian,dog,Pomeranian,dog,0.9728878736495972,confident,v1,none,0
+pomeranian_108,Pomeranian,dog,Pomeranian,dog,0.9926949739456177,confident,v1,none,0
+pomeranian_109,Pomeranian,dog,Pomeranian,dog,0.9950405955314636,confident,v1,none,0
+pomeranian_11,Pomeranian,dog,Pomeranian,dog,0.9900156855583191,confident,v1,none,0
+pomeranian_117,Pomeranian,dog,Pomeranian,dog,0.8343015313148499,confident,v1,none,0
+pomeranian_120,Pomeranian,dog,Pomeranian,dog,0.9922202229499817,confident,v1,none,0
+pomeranian_122,Pomeranian,dog,Pomeranian,dog,0.9931609630584717,confident,v1,none,0
+pomeranian_124,Pomeranian,dog,Pomeranian,dog,0.9927599430084229,confident,v1,none,0
+pomeranian_146,Pomeranian,dog,Pomeranian,dog,0.9899589419364929,confident,v1,none,0
+pomeranian_15,Pomeranian,dog,Pomeranian,dog,0.9965534210205078,confident,v1,none,0
+pomeranian_151,Pomeranian,dog,Pomeranian,dog,0.913055419921875,confident,v1,none,0
+pomeranian_154,Pomeranian,dog,Pomeranian,dog,0.9944882988929749,confident,v1,none,0
+pomeranian_160,Pomeranian,dog,Pomeranian,dog,0.9987414479255676,confident,v1,none,0
+pomeranian_166,Pomeranian,dog,Pomeranian,dog,0.990903913974762,confident,v1,none,0
+pomeranian_17,Pomeranian,dog,Pomeranian,dog,0.9969156980514526,confident,v1,none,0
+pomeranian_172,Pomeranian,dog,Pomeranian,dog,0.9970232844352722,confident,v1,none,0
+pomeranian_177,Pomeranian,dog,Pomeranian,dog,0.9932591915130615,confident,v1,none,0
+pomeranian_190,Pomeranian,dog,Pomeranian,dog,0.987772524356842,confident,v1,none,0
+pug_101,Pug,dog,Pug,dog,0.9912573099136353,confident,v1,none,0
+pug_104,Pug,dog,Pug,dog,0.9977703094482422,confident,v1,none,0
+pug_110,Pug,dog,Pug,dog,0.9901756644248962,confident,v1,none,0
+pug_117,Pug,dog,Pug,dog,0.9986013770103455,confident,v1,none,0
+pug_124,Pug,dog,Pug,dog,0.9955667853355408,confident,v1,none,0
+pug_125,Pug,dog,Pug,dog,0.9985621571540833,confident,v1,none,0
+pug_130,Pug,dog,Pug,dog,0.9989500641822815,confident,v1,none,0
+pug_137,Pug,dog,Pug,dog,0.9997274279594421,confident,v1,none,0
+pug_140,Pug,dog,Pug,dog,0.9986224174499512,confident,v1,none,0
+pug_143,Pug,dog,Pug,dog,0.9991888403892517,confident,v1,none,0
+pug_145,Pug,dog,Pug,dog,0.9993277788162231,confident,v1,none,0
+pug_146,Pug,dog,Pug,dog,0.9984965324401855,confident,v1,none,0
+pug_156,Pug,dog,Pug,dog,0.998649537563324,confident,v1,none,0
+pug_157,Pug,dog,Pug,dog,0.9910578727722168,confident,v1,none,0
+pug_166,Pug,dog,Pug,dog,0.9987319111824036,confident,v1,none,0
+pug_17,Pug,dog,Pug,dog,0.9978076815605164,confident,v1,none,0
+pug_172,Pug,dog,Pug,dog,0.9985306262969971,confident,v1,none,0
+pug_174,Pug,dog,Pug,dog,0.9994106292724609,confident,v1,none,0
+pug_184,Pug,dog,Pug,dog,0.9989259839057922,confident,v1,none,0
+pug_186,Pug,dog,Pug,dog,0.9979615211486816,confident,v1,none,0
+saint_bernard_106,Saint Bernard,dog,Saint Bernard,dog,0.9988262057304382,confident,v1,none,0
+saint_bernard_108,Saint Bernard,dog,Saint Bernard,dog,0.9997779726982117,confident,v1,none,0
+saint_bernard_111,Saint Bernard,dog,Beagle,dog,0.22771140933036804,uncertain,v1,none,0
+saint_bernard_113,Saint Bernard,dog,Saint Bernard,dog,0.9966891407966614,confident,v1,none,0
+saint_bernard_115,Saint Bernard,dog,Saint Bernard,dog,0.9927080273628235,confident,v1,none,0
+saint_bernard_120,Saint Bernard,dog,Saint Bernard,dog,0.9782333374023438,confident,v1,none,0
+saint_bernard_121,Saint Bernard,dog,Saint Bernard,dog,0.9840498566627502,confident,v1,none,0
+saint_bernard_124,Saint Bernard,dog,Saint Bernard,dog,0.998009979724884,confident,v1,none,0
+saint_bernard_127,Saint Bernard,dog,Saint Bernard,dog,0.99944669008255,confident,v1,none,0
+saint_bernard_129,Saint Bernard,dog,Saint Bernard,dog,0.9973850846290588,confident,v1,none,0
+saint_bernard_134,Saint Bernard,dog,Saint Bernard,dog,0.779876172542572,uncertain,v1,none,0
+saint_bernard_144,Saint Bernard,dog,American Bulldog,dog,0.5068746209144592,uncertain,v1,none,0
+saint_bernard_152,Saint Bernard,dog,Saint Bernard,dog,0.9937611222267151,confident,v1,none,0
+saint_bernard_156,Saint Bernard,dog,Saint Bernard,dog,0.9997608065605164,confident,v1,none,0
+saint_bernard_168,Saint Bernard,dog,Saint Bernard,dog,0.40843045711517334,uncertain,v1,none,0
+saint_bernard_169,Saint Bernard,dog,Saint Bernard,dog,0.9992914199829102,confident,v1,none,0
+saint_bernard_170,Saint Bernard,dog,Saint Bernard,dog,0.9997766613960266,confident,v1,none,0
+saint_bernard_177,Saint Bernard,dog,Saint Bernard,dog,0.9939913153648376,confident,v1,none,0
+saint_bernard_183,Saint Bernard,dog,Saint Bernard,dog,0.9976361989974976,confident,v1,none,0
+saint_bernard_185,Saint Bernard,dog,Saint Bernard,dog,0.9741414785385132,confident,v1,none,0
+samoyed_10,Samoyed,dog,Samoyed,dog,0.9961357116699219,confident,v1,none,0
+samoyed_105,Samoyed,dog,Samoyed,dog,0.9966250658035278,confident,v1,none,0
+samoyed_112,Samoyed,dog,Samoyed,dog,0.9990732669830322,confident,v1,none,0
+samoyed_116,Samoyed,dog,Samoyed,dog,0.99504154920578,confident,v1,none,0
+samoyed_123,Samoyed,dog,Samoyed,dog,0.9943296313285828,confident,v1,none,0
+samoyed_13,Samoyed,dog,Samoyed,dog,0.9493898153305054,confident,v1,none,0
+samoyed_135,Samoyed,dog,Samoyed,dog,0.9911677837371826,confident,v1,none,0
+samoyed_136,Samoyed,dog,Samoyed,dog,0.900454044342041,confident,v1,none,0
+samoyed_141,Samoyed,dog,Samoyed,dog,0.9822408556938171,confident,v1,none,0
+samoyed_144,Samoyed,dog,Samoyed,dog,0.9968852400779724,confident,v1,none,0
+samoyed_147,Samoyed,dog,Samoyed,dog,0.9140071868896484,confident,v1,none,0
+samoyed_148,Samoyed,dog,Samoyed,dog,0.9931261539459229,confident,v1,none,0
+samoyed_156,Samoyed,dog,Samoyed,dog,0.9960528612136841,confident,v1,none,0
+samoyed_158,Samoyed,dog,Samoyed,dog,0.9959331154823303,confident,v1,none,0
+samoyed_159,Samoyed,dog,Samoyed,dog,0.9965788722038269,confident,v1,none,0
+samoyed_16,Samoyed,dog,Samoyed,dog,0.9973194003105164,confident,v1,none,0
+samoyed_162,Samoyed,dog,Samoyed,dog,0.997641921043396,confident,v1,none,0
+samoyed_174,Samoyed,dog,Samoyed,dog,0.9782301187515259,confident,v1,none,0
+samoyed_176,Samoyed,dog,Samoyed,dog,0.5995646715164185,uncertain,v1,none,0
+samoyed_184,Samoyed,dog,Samoyed,dog,0.9959267973899841,confident,v1,none,0
+scottish_terrier_100,Scottish Terrier,dog,Scottish Terrier,dog,0.9894644021987915,confident,v1,none,0
+scottish_terrier_101,Scottish Terrier,dog,Scottish Terrier,dog,0.9990119934082031,confident,v1,none,0
+scottish_terrier_106,Scottish Terrier,dog,Wheaten Terrier,dog,0.6220523118972778,uncertain,v1,none,0
+scottish_terrier_110,Scottish Terrier,dog,Scottish Terrier,dog,0.9996824264526367,confident,v1,none,0
+scottish_terrier_119,Scottish Terrier,dog,Scottish Terrier,dog,0.8857823610305786,confident,v1,none,0
+scottish_terrier_12,Scottish Terrier,dog,Scottish Terrier,dog,0.9854152202606201,confident,v1,none,0
+scottish_terrier_122,Scottish Terrier,dog,Scottish Terrier,dog,0.9973164200782776,confident,v1,none,0
+scottish_terrier_125,Scottish Terrier,dog,Scottish Terrier,dog,0.9998387098312378,confident,v1,none,0
+scottish_terrier_126,Scottish Terrier,dog,Scottish Terrier,dog,0.9971633553504944,confident,v1,none,0
+scottish_terrier_129,Scottish Terrier,dog,Scottish Terrier,dog,0.9997501969337463,confident,v1,none,0
+scottish_terrier_133,Scottish Terrier,dog,Scottish Terrier,dog,0.8851845264434814,confident,v1,none,0
+scottish_terrier_134,Scottish Terrier,dog,Scottish Terrier,dog,0.9006549119949341,confident,v1,none,0
+scottish_terrier_142,Scottish Terrier,dog,Scottish Terrier,dog,0.9989572763442993,confident,v1,none,0
+scottish_terrier_152,Scottish Terrier,dog,Scottish Terrier,dog,0.9976620674133301,confident,v1,none,0
+scottish_terrier_155,Scottish Terrier,dog,Scottish Terrier,dog,0.9996229410171509,confident,v1,none,0
+scottish_terrier_162,Scottish Terrier,dog,Scottish Terrier,dog,0.9995778203010559,confident,v1,none,0
+scottish_terrier_165,Scottish Terrier,dog,Scottish Terrier,dog,0.9986187219619751,confident,v1,none,0
+scottish_terrier_167,Scottish Terrier,dog,Scottish Terrier,dog,0.9845573902130127,confident,v1,none,0
+scottish_terrier_168,Scottish Terrier,dog,Scottish Terrier,dog,0.9983540773391724,confident,v1,none,0
+scottish_terrier_18,Scottish Terrier,dog,Scottish Terrier,dog,0.9994953870773315,confident,v1,none,0
+shiba_inu_100,Shiba Inu,dog,Shiba Inu,dog,0.9978747367858887,confident,v1,none,0
+shiba_inu_103,Shiba Inu,dog,Shiba Inu,dog,0.9936832189559937,confident,v1,none,0
+shiba_inu_110,Shiba Inu,dog,Shiba Inu,dog,0.9988646507263184,confident,v1,none,0
+shiba_inu_111,Shiba Inu,dog,Shiba Inu,dog,0.8846900463104248,confident,v1,none,0
+shiba_inu_118,Shiba Inu,dog,Shiba Inu,dog,0.9947010278701782,confident,v1,none,0
+shiba_inu_121,Shiba Inu,dog,Shiba Inu,dog,0.9992411136627197,confident,v1,none,0
+shiba_inu_125,Shiba Inu,dog,Shiba Inu,dog,0.9887222051620483,confident,v1,none,0
+shiba_inu_13,Shiba Inu,dog,Shiba Inu,dog,0.9945705533027649,confident,v1,none,0
+shiba_inu_141,Shiba Inu,dog,Shiba Inu,dog,0.9333829283714294,confident,v1,none,0
+shiba_inu_143,Shiba Inu,dog,Shiba Inu,dog,0.9843418002128601,confident,v1,none,0
+shiba_inu_145,Shiba Inu,dog,Shiba Inu,dog,0.9990590214729309,confident,v1,none,0
+shiba_inu_161,Shiba Inu,dog,Shiba Inu,dog,0.9985129237174988,confident,v1,none,0
+shiba_inu_163,Shiba Inu,dog,Shiba Inu,dog,0.9993985891342163,confident,v1,none,0
+shiba_inu_164,Shiba Inu,dog,Shiba Inu,dog,0.9826430082321167,confident,v1,none,0
+shiba_inu_175,Shiba Inu,dog,Shiba Inu,dog,0.9835899472236633,confident,v1,none,0
+shiba_inu_177,Shiba Inu,dog,Shiba Inu,dog,0.998561441898346,confident,v1,none,0
+shiba_inu_182,Shiba Inu,dog,Shiba Inu,dog,0.9996448755264282,confident,v1,none,0
+shiba_inu_190,Shiba Inu,dog,Shiba Inu,dog,0.9967921376228333,confident,v1,none,0
+shiba_inu_192,Shiba Inu,dog,Shiba Inu,dog,0.9992239475250244,confident,v1,none,0
+shiba_inu_196,Shiba Inu,dog,Shiba Inu,dog,0.9957274198532104,confident,v1,none,0
+staffordshire_bull_terrier_102,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9994638562202454,confident,v1,none,0
+staffordshire_bull_terrier_110,Staffordshire Bull Terrier,dog,American Bulldog,dog,0.9664300680160522,confident,v1,none,0
+staffordshire_bull_terrier_111,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.6973156332969666,uncertain,v1,none,0
+staffordshire_bull_terrier_112,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9731465578079224,confident,v1,none,0
+staffordshire_bull_terrier_113,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9942405223846436,confident,v1,none,0
+staffordshire_bull_terrier_119,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9959406852722168,confident,v1,none,0
+staffordshire_bull_terrier_12,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.758098840713501,uncertain,v1,none,0
+staffordshire_bull_terrier_121,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.43385082483291626,uncertain,v1,none,0
+staffordshire_bull_terrier_122,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9856364727020264,confident,v1,none,0
+staffordshire_bull_terrier_128,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.6931813359260559,uncertain,v1,none,0
+staffordshire_bull_terrier_129,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9947541952133179,confident,v1,none,0
+staffordshire_bull_terrier_132,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9968499541282654,confident,v1,none,0
+staffordshire_bull_terrier_133,Staffordshire Bull Terrier,dog,American Bulldog,dog,0.4132150709629059,uncertain,v1,none,0
+staffordshire_bull_terrier_137,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9977815747261047,confident,v1,none,0
+staffordshire_bull_terrier_140,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9994369149208069,confident,v1,none,0
+staffordshire_bull_terrier_144,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9991971850395203,confident,v1,none,0
+staffordshire_bull_terrier_158,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9965701103210449,confident,v1,none,0
+staffordshire_bull_terrier_162,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9991162419319153,confident,v1,none,0
+staffordshire_bull_terrier_17,Staffordshire Bull Terrier,dog,German Shorthaired,dog,0.5675666928291321,uncertain,v1,none,0
+staffordshire_bull_terrier_184,Staffordshire Bull Terrier,dog,Staffordshire Bull Terrier,dog,0.9990743398666382,confident,v1,none,0
+wheaten_terrier_105,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9591251015663147,confident,v1,none,0
+wheaten_terrier_112,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9979076385498047,confident,v1,none,0
+wheaten_terrier_12,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9960993528366089,confident,v1,none,0
+wheaten_terrier_120,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9961130619049072,confident,v1,none,0
+wheaten_terrier_123,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9834052324295044,confident,v1,none,0
+wheaten_terrier_125,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9456407427787781,confident,v1,none,0
+wheaten_terrier_127,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9796937108039856,confident,v1,none,0
+wheaten_terrier_130,Wheaten Terrier,dog,Wheaten Terrier,dog,0.998570442199707,confident,v1,none,0
+wheaten_terrier_133,Wheaten Terrier,dog,Wheaten Terrier,dog,0.998765230178833,confident,v1,none,0
+wheaten_terrier_135,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9984216690063477,confident,v1,none,0
+wheaten_terrier_139,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9983556866645813,confident,v1,none,0
+wheaten_terrier_151,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9941196441650391,confident,v1,none,0
+wheaten_terrier_152,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9993273019790649,confident,v1,none,0
+wheaten_terrier_153,Wheaten Terrier,dog,Wheaten Terrier,dog,0.8971043825149536,confident,v1,none,0
+wheaten_terrier_164,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9898277521133423,confident,v1,none,0
+wheaten_terrier_171,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9970358610153198,confident,v1,none,0
+wheaten_terrier_181,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9976442456245422,confident,v1,none,0
+wheaten_terrier_188,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9988043308258057,confident,v1,none,0
+wheaten_terrier_189,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9813310503959656,confident,v1,none,0
+wheaten_terrier_190,Wheaten Terrier,dog,Wheaten Terrier,dog,0.9954243302345276,confident,v1,none,0
+yorkshire_terrier_10,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9932751655578613,confident,v1,none,0
+yorkshire_terrier_101,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9887654781341553,confident,v1,none,0
+yorkshire_terrier_105,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9887087941169739,confident,v1,none,0
+yorkshire_terrier_108,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9944157600402832,confident,v1,none,0
+yorkshire_terrier_110,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9839215278625488,confident,v1,none,0
+yorkshire_terrier_111,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9968055486679077,confident,v1,none,0
+yorkshire_terrier_118,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9921844601631165,confident,v1,none,0
+yorkshire_terrier_122,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9965298771858215,confident,v1,none,0
+yorkshire_terrier_133,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9994335770606995,confident,v1,none,0
+yorkshire_terrier_138,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9918575882911682,confident,v1,none,0
+yorkshire_terrier_140,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9910910129547119,confident,v1,none,0
+yorkshire_terrier_144,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9965302348136902,confident,v1,none,0
+yorkshire_terrier_153,Yorkshire Terrier,dog,Bengal,cat,0.46136465668678284,uncertain,v1,none,0
+yorkshire_terrier_16,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9940788745880127,confident,v1,none,0
+yorkshire_terrier_164,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9931808710098267,confident,v1,none,0
+yorkshire_terrier_165,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9958677291870117,confident,v1,none,0
+yorkshire_terrier_169,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9976080656051636,confident,v1,none,0
+yorkshire_terrier_175,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9942078590393066,confident,v1,none,0
+yorkshire_terrier_176,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9957976341247559,confident,v1,none,0
+yorkshire_terrier_177,Yorkshire Terrier,dog,Yorkshire Terrier,dog,0.9966785907745361,confident,v1,none,0
