@@ -18,3 +18,7 @@ models/*
 
 .idea/
 push.log
+# Airflow generated files
+airflow/logs/
+airflow/airflow.db
+airflow/__pycache__/

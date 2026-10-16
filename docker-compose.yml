@@ -1,4 +1,4 @@
-services:
+﻿services:
   api:
     build: .
     image: pet-breed
@@ -72,6 +72,7 @@ services:
       - "9090:9090"
     volumes:
       - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./monitoring/prometheus/alert_rules.yml:/etc/prometheus/alert_rules.yml:ro
     depends_on:
       - api
     restart: unless-stopped
@@ -89,7 +90,55 @@ services:
     restart: unless-stopped
 
 
+  training-runner:
+    image: pet-breed-training:local
+    container_name: pet-breed-training-runner
+    working_dir: /workspace
+    entrypoint: ["python", "-c"]
+    command: ["import time; time.sleep(10**9)"]
+    environment:
+      PET_LABEL_MAP: /workspace/configs/label_map.json
+    volumes:
+      - ./:/workspace
+    healthcheck:
+      disable: true
+    restart: unless-stopped
+
+  airflow:
+    image: pet-breed-airflow:local
+    container_name: pet-breed-airflow
+    user: "0:0"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: sqlite:////opt/airflow/airflow.db
+      PROJECT_ROOT: "${PROJECT_ROOT}"
+    ports:
+      - "8082:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./:/workspace
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - prometheus
+      - training-runner
+    healthcheck:
+      test: ["CMD", "/opt/airflow-venv/bin/python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 60s
+    restart: unless-stopped
 volumes:
   pgdata:
   mlartifacts:
   grafana-data:
+
+
+
+
+
+
+
