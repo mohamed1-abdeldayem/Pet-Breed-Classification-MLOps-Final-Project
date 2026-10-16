@@ -1,9 +1,8 @@
-﻿from datetime import datetime, timezone
-import json
+﻿import json
 import os
 import urllib.request
+from datetime import UTC, datetime
 
-from airflow import DAG
 from airflow.exceptions import AirflowException
 from airflow.models import Variable
 from airflow.operators.empty import EmptyOperator
@@ -11,6 +10,7 @@ from airflow.operators.python import BranchPythonOperator, PythonOperator
 from airflow.providers.docker.operators.docker import DockerOperator
 from docker.types import Mount
 
+from airflow import DAG
 
 PROMETHEUS_URL = "http://prometheus:9090"
 PROJECT_ROOT = os.environ.get("PROJECT_ROOT", "").strip()
@@ -60,11 +60,7 @@ def detect_drift(**context):
             "reason": "No firing drift alert",
         }
 
-    alert = sorted(
-        firing_alerts,
-        key=lambda item: item.get("activeAt", ""),
-        reverse=True,
-    )[0]
+    alert = max(firing_alerts, key=lambda item: item.get("activeAt", ""))
 
     active_at = alert.get("activeAt", "")
     if not active_at:
@@ -166,7 +162,7 @@ def record_episode(**context):
 with DAG(
     dag_id="pet_breed_drift_retraining",
     description="Detect prediction drift, train an isolated candidate, and run a quality gate",
-    start_date=datetime(2026, 1, 1, tzinfo=timezone.utc),
+    start_date=datetime(2026, 1, 1, tzinfo=UTC),
     schedule="*/5 * * * *",
     catchup=False,
     max_active_runs=1,
