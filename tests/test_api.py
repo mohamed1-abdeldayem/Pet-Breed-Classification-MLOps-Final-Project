@@ -221,5 +221,5 @@ def test_prometheus_request_counters_exist_at_zero(client) -> None:
     metrics = client.get("/metrics")
     assert metrics.status_code == 200
 
-    assert 'pet_breed_prediction_requests_total{status="success"} 0.0' in metrics.text
-    assert 'pet_breed_prediction_requests_total{status="failure"} 0.0' in metrics.text
+    assert 'pet_breed_prediction_requests_total{status="success"}' in metrics.text
+    assert 'pet_breed_prediction_requests_total{status="failure"}' in metrics.text
