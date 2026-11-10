@@ -353,7 +353,7 @@ Pet-Breed-Classification-MLOps-Final-Project/
 Python 3.12   git   uv   docker + docker compose (for the full stack)
 ```
 
-Optional: an NVIDIA GPU with a CUDA build of PyTorch for faster training (`uv sync` installs the CPU build), and access to the DagsHub DVC remote (otherwise use the download fallback in step 3).
+Optional: an NVIDIA GPU with a CUDA build of PyTorch for faster training (`uv sync` installs the CPU build), and access to the DagsHub DVC remote (see the reviewer credentials in step 3, or use the download fallback in Option B).
 
 ### Fastest check — API in 3 commands (no dataset, no GPU)
 
@@ -387,12 +387,18 @@ cp .env.example .env
 
 #### 3. Get the dataset
 
-**Option A — DVC** (needs access to the DagsHub remote in `.dvc/config`):
+**Option A — DVC** (DagsHub storage requires authentication even for public repos, so reviewer credentials are provided below):
 
 ```bash
+uv run dvc remote modify origin --local auth basic
+uv run dvc remote modify origin --local user d07e75248ec1837a1310a519a8982461e63e3ae7
+uv run dvc remote modify origin --local password d07e75248ec1837a1310a519a8982461e63e3ae7
+
 uv run dvc pull
 uv run dvc repro        # extract → manifest → corrupted
 ```
+
+> The token is for review/grading only and will be revoked afterwards. The commands use `--local`, so the credentials are stored in `.dvc/config.local` (git-ignored) and never committed. The first `dvc repro` takes a few minutes because `uv` prepares the environment (Python 3.12 is downloaded automatically if missing).
 
 **Option B — without DVC access:** download the dataset with torchvision (the same dataset the DVC archive holds), then build the manifest and the corrupted set directly:
 
