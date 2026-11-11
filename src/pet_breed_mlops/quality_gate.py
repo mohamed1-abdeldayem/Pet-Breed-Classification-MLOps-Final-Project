@@ -18,7 +18,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--tolerance", type=float, default=0.01)
     a = p.parse_args(argv)
 
-    base = json.loads(Path(a.baseline).read_text(encoding="utf-8"))["top1"]
+    base = json.loads(Path(a.baseline).read_text(encoding="utf-8-sig"))["top1"]
     cand = json.loads(Path(a.candidate).read_text(encoding="utf-8"))["top1"]
     ok = passes(base, cand, a.tolerance)
     print(f"baseline top1={base:.4f} candidate top1={cand:.4f} tolerance={a.tolerance} -> "
